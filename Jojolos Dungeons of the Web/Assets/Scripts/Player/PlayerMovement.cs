@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 12f;
+    public float walkSpeed = 12f;
+    public float runSpeed = 24f;
     public CharacterController controller;
 
     public float gravity = -9.81f;
@@ -26,13 +27,15 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         grounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        if (grounded && gravity < 0) velocity.y = -2f;
+        if (grounded && gravity < 0) velocity.y = -3f;
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
+        if (Input.GetKey(KeyCode.LeftShift)) move *= runSpeed;
+        else move *= walkSpeed;
+        controller.Move(move * Time.deltaTime);
 
         if (Input.GetButtonDown("Jump") && grounded) velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
 
