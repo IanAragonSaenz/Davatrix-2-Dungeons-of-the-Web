@@ -8,7 +8,7 @@ public enum WeaponShootType
 }
 
 [System.Serializable]
-public struct CorsshairData
+public struct CrosshairData
 {
     [Tooltip("The image that will be used for this weapon's crosshair")]
     public Sprite crosshairSprite;
@@ -89,10 +89,10 @@ public class WeaponController : MonoBehaviour
 
     public GameObject owner { get; set; }
     public GameObject sourcePrefab { get; set; }
-    public bool isCharging { get; private set; }
+    public bool charging { get; private set; }
     public float currentAmmoRatio { get; private set; }
-    public bool isWeaponActive { get; private set; }
-    public bool isCooling { get; private set; }
+    public bool weaponActive { get; private set; }
+    public bool cooling { get; private set; }
     public float currentCharge { get; private set; }
     public Vector3 muzzleWorldVelocity { get; private set; }
     public float GetAmmoNeededToShoot() => (shootType != WeaponShootType.Charge ? 1 : ammoUsedOnStartCharge) / maxAmmo;
@@ -114,7 +114,7 @@ public class WeaponController : MonoBehaviour
         UpdateAmmo();
         UpdateCharge();
 
-        if(Time.deltaTime > 0)
+        if (Time.deltaTime > 0)
         {
             muzzleWorldVelocity = (weaponMuzzle.position - m_LastMuzzlePosition) / Time.deltaTime;
             m_LastMuzzlePosition = weaponMuzzle.position;
@@ -123,14 +123,14 @@ public class WeaponController : MonoBehaviour
 
     void UpdateAmmo()
     {
-        if (m_LastTimeShot + ammoReloadDelay < Time.time && m_CurrentAmmo < maxAmmo && !isCharging)
+        if (m_LastTimeShot + ammoReloadDelay < Time.time && m_CurrentAmmo < maxAmmo && !charging)
         {
             //reloads the ammo over time
             m_CurrentAmmo += ammoReloadRate * Time.deltaTime;
             m_CurrentAmmo = Mathf.Clamp(m_CurrentAmmo, 0, maxAmmo);
-            isCooling = true;
+            cooling = true;
         }
-        else isCooling = false;
+        else cooling = false;
 
         if (maxAmmo == Mathf.Infinity) currentAmmoRatio = 1f;
         else currentAmmoRatio = m_CurrentAmmo / maxAmmo;
@@ -138,6 +138,126 @@ public class WeaponController : MonoBehaviour
 
     void UpdateCharge()
     {
+        if (charging && currentCharge < 1f)
+        {
+            float chargesLeft = 1f - currentCharge;
+            //checks the charge ratio to add this frame
+            float chargeAdded = 0f;
+            if (maxChargeDuration <= 0f) chargeAdded = chargesLeft;
+            chargeAdded = (1f / maxChargeDuration) * Time.deltaTime;
+            chargeAdded = Mathf.Clamp(chargeAdded, 0f, chargesLeft);
 
+            //checks if charge can actually fit
+            float ammoThisChargeWouldRequire = chargeAdded * ammoUsageRateWhileCharging;
+
+            UseAmmo(ammoThisChargeWouldRequire);
+
+            currentCharge = Mathf.Clamp01(currentCharge + chargeAdded);
+
+
+        }
     }
-}
+
+    public void UseAmmo(float amount)
+    {
+        m_CurrentAmmo = Mathf.Clamp(m_CurrentAmmo - amount, 0f, maxAmmo);
+        m_LastTimeShot = Time.time;
+    }
+
+    public void ShowWeapon(bool show)
+    {
+        weaponRoot.SetActive(show);
+        if (show && changeWeaponSFX) m_ShootAudioSource.PlayOneShot(changeWeaponSFX);
+        weaponActive = show;
+    }
+
+    public bool HandleShootType(bool inputDown, bool inputHeld, bool inputUp)
+    {
+        switch (shootType)
+        {
+            case WeaponShootType.Manual:
+                if (inputDown) return TryShoot();
+                return false;
+
+            case WeaponShootType.Automatic:
+                if (inputHeld) return TryShoot();
+                return false;
+
+            case WeaponShootType.Charge:
+                if (inputHeld) TryBeginCharge();
+                if (inputUp) return TryReleaseCharge();
+                return false;
+
+            default:
+                return false;
+        }
+    }
+
+    bool TryShoot()
+    {
+        if (m_CurrentAmmo > 0 && m_LastTimeShot + delayBetweenShots <= Time.time)
+        {
+            HandleShoot();
+            m_CurrentAmmo--;
+            return true;
+        }
+        return false;
+    }
+
+    bool TryBeginCharge()
+    {
+        if (!charging && m_CurrentAmmo >= ammoUsedOnStartCharge && m_LastTimeShot + delayBetweenShots <= Time.time)
+        {
+            UseAmmo(ammoUsedOnStartCharge);
+            charging = true;
+            return true;
+        }
+        return false;
+    }
+
+    bool TryReleaseCharge()
+    {
+        if (charging)
+        {
+            HandleShoot();
+            currentCharge = 0;
+            return true;
+        }
+        return false;
+    }
+
+    void HandleShoot()
+    {
+        //this creates the bullets per shot and shoots them
+        for(int i = 0; i < bulletsPerShot; i++)
+        {
+            Vector3 shotDirection = GetShotDirectionWithinSpread(weaponMuzzle);
+            ProjectileBase newProjectile = Instantiate(projectilePrefab, weaponMuzzle.position, Quaternion.LookRotation(shotDirection));
+            newProjectile.Shoot(this);
+        }
+
+        //makes the muzzle flash if there is any
+        if(muzzleFlashPrefab != null)
+        {
+            GameObject muzzleFlashInstance = Instantiate(muzzleFlashPrefab, weaponMuzzle.position, weaponMuzzle.rotation, weaponMuzzle.transform);
+            Destroy(muzzleFlashInstance, 2f);
+        }
+
+        m_LastTimeShot = Time.time;
+
+        //shoots SFX sound
+        if (shootSFX) m_ShootAudioSource.PlayOneShot(shootSFX);
+        
+    }
+
+    public Vector3 GetShotDirectionWithinSpread(Transform shootTransform)
+    {
+        float spreadAngleRatio = bulletSpreadAngle / 180f;
+        Vector3 spreadWorldDirection = Vector3.Slerp(shootTransform.forward, UnityEngine.Random.insideUnitSphere, spreadAngleRatio);
+
+        return spreadWorldDirection;
+    }
+
+}   
+
+
