@@ -1,1 +1,1 @@
-# Jojolos-2-The-C
+# Jojolos-2-Dungeons-of-the-Web
