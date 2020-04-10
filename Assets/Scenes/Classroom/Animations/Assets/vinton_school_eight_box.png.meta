@@ -1,0 +1,2276 @@
+fileFormatVersion: 2
+guid: 2396ead5b93b66a4c910f292e676ebf2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6462777209763749254
+    second: vinton_school_eight_box_0
+  - first:
+      213: -566415948081673792
+    second: vinton_school_eight_box_1
+  - first:
+      213: 6015140163164385290
+    second: vinton_school_eight_box_2
+  - first:
+      213: -6847760054230335852
+    second: vinton_school_eight_box_3
+  - first:
+      213: -3406517885158109715
+    second: vinton_school_eight_box_4
+  - first:
+      213: -5387609178253288602
+    second: vinton_school_eight_box_5
+  - first:
+      213: -9142887919235860594
+    second: vinton_school_eight_box_6
+  - first:
+      213: -1184482970885498303
+    second: vinton_school_eight_box_7
+  - first:
+      213: -4091429731121207195
+    second: vinton_school_eight_box_8
+  - first:
+      213: 7660703865553075612
+    second: vinton_school_eight_box_9
+  - first:
+      213: -2612781986838072128
+    second: vinton_school_eight_box_10
+  - first:
+      213: -5788638843331313861
+    second: vinton_school_eight_box_11
+  - first:
+      213: -6560768845955358113
+    second: vinton_school_eight_box_12
+  - first:
+      213: -4011097536402112765
+    second: vinton_school_eight_box_13
+  - first:
+      213: -8821894514305562147
+    second: vinton_school_eight_box_14
+  - first:
+      213: -5134399069780069377
+    second: vinton_school_eight_box_15
+  - first:
+      213: 8043435671828035471
+    second: vinton_school_eight_box_16
+  - first:
+      213: -6718393973924097177
+    second: vinton_school_eight_box_17
+  - first:
+      213: 2278501535701242677
+    second: vinton_school_eight_box_18
+  - first:
+      213: 8789366565133982992
+    second: vinton_school_eight_box_19
+  - first:
+      213: 5644638822921787086
+    second: vinton_school_eight_box_20
+  - first:
+      213: 8408078313063343073
+    second: vinton_school_eight_box_21
+  - first:
+      213: 1577469292145482304
+    second: vinton_school_eight_box_22
+  - first:
+      213: 7649971821363359777
+    second: vinton_school_eight_box_23
+  - first:
+      213: -5247366425339511301
+    second: vinton_school_eight_box_24
+  - first:
+      213: -2140511362265113745
+    second: vinton_school_eight_box_25
+  - first:
+      213: -2040726345502473222
+    second: vinton_school_eight_box_26
+  - first:
+      213: 914785998091114215
+    second: vinton_school_eight_box_27
+  - first:
+      213: -6093547373341687503
+    second: vinton_school_eight_box_28
+  - first:
+      213: 7563808542427529719
+    second: vinton_school_eight_box_29
+  - first:
+      213: 6861952297672166168
+    second: vinton_school_eight_box_30
+  - first:
+      213: -8346599150389895733
+    second: vinton_school_eight_box_31
+  - first:
+      213: 7342222697386301219
+    second: vinton_school_eight_box_32
+  - first:
+      213: -1231349698522615561
+    second: vinton_school_eight_box_33
+  - first:
+      213: -5152123999904632328
+    second: vinton_school_eight_box_34
+  - first:
+      213: 9014400447123442486
+    second: vinton_school_eight_box_35
+  - first:
+      213: 1827953415107370202
+    second: vinton_school_eight_box_36
+  - first:
+      213: -6737584401849692454
+    second: vinton_school_eight_box_37
+  - first:
+      213: 2554921513438610048
+    second: vinton_school_eight_box_38
+  - first:
+      213: 3739113970663555743
+    second: vinton_school_eight_box_39
+  - first:
+      213: -2945680976486625210
+    second: vinton_school_eight_box_40
+  - first:
+      213: 8966699708742113279
+    second: vinton_school_eight_box_41
+  - first:
+      213: 6534945148105832008
+    second: vinton_school_eight_box_42
+  - first:
+      213: 8860057686257514408
+    second: vinton_school_eight_box_43
+  - first:
+      213: -6348758865305521105
+    second: vinton_school_eight_box_44
+  - first:
+      213: -8487590341856404115
+    second: vinton_school_eight_box_45
+  - first:
+      213: -2771237165462592249
+    second: vinton_school_eight_box_46
+  - first:
+      213: 3116182216630010663
+    second: vinton_school_eight_box_47
+  - first:
+      213: -477748691868175424
+    second: vinton_school_eight_box_48
+  - first:
+      213: 6769896084742353691
+    second: vinton_school_eight_box_49
+  - first:
+      213: -8771954397997012133
+    second: vinton_school_eight_box_50
+  - first:
+      213: -1083244799228649904
+    second: vinton_school_eight_box_51
+  - first:
+      213: -424459314338320890
+    second: vinton_school_eight_box_52
+  - first:
+      213: 3100560676385889184
+    second: vinton_school_eight_box_53
+  - first:
+      213: 3364675151013246671
+    second: vinton_school_eight_box_54
+  - first:
+      213: 8521648153428549768
+    second: vinton_school_eight_box_55
+  - first:
+      213: -6648972361981688682
+    second: vinton_school_eight_box_56
+  - first:
+      213: 6069797293426779841
+    second: vinton_school_eight_box_57
+  - first:
+      213: 1860687967729145356
+    second: vinton_school_eight_box_58
+  - first:
+      213: 1147185248107554017
+    second: vinton_school_eight_box_59
+  - first:
+      213: -1637893752165631529
+    second: vinton_school_eight_box_60
+  - first:
+      213: -784744333401435788
+    second: vinton_school_eight_box_61
+  - first:
+      213: -7282710565377542736
+    second: vinton_school_eight_box_62
+  - first:
+      213: -3399508924082291631
+    second: vinton_school_eight_box_63
+  - first:
+      213: -4798722996265156684
+    second: vinton_school_eight_box_64
+  - first:
+      213: -2288462478898639671
+    second: vinton_school_eight_box_65
+  - first:
+      213: -7953821642304950721
+    second: vinton_school_eight_box_66
+  - first:
+      213: -7694490190017470754
+    second: vinton_school_eight_box_67
+  - first:
+      213: 3574826104597253609
+    second: vinton_school_eight_box_68
+  - first:
+      213: 5039355711128376022
+    second: vinton_school_eight_box_69
+  - first:
+      213: -3041688993723468420
+    second: vinton_school_eight_box_70
+  - first:
+      213: 1798418084723150261
+    second: vinton_school_eight_box_71
+  - first:
+      213: 5011710784387036972
+    second: vinton_school_eight_box_72
+  - first:
+      213: 4109097015331379566
+    second: vinton_school_eight_box_73
+  - first:
+      213: -2712371976029775135
+    second: vinton_school_eight_box_74
+  - first:
+      213: 4430527042670991680
+    second: vinton_school_eight_box_75
+  - first:
+      213: -9203216527546998299
+    second: vinton_school_eight_box_76
+  - first:
+      213: -3845575903019141337
+    second: vinton_school_eight_box_77
+  - first:
+      213: -648178241795332903
+    second: vinton_school_eight_box_78
+  - first:
+      213: 6482024938324134363
+    second: vinton_school_eight_box_79
+  - first:
+      213: 2382217645973773044
+    second: vinton_school_eight_box_80
+  - first:
+      213: -993549371180032876
+    second: vinton_school_eight_box_81
+  - first:
+      213: -3856971817645057129
+    second: vinton_school_eight_box_82
+  - first:
+      213: 3533226152953328261
+    second: vinton_school_eight_box_83
+  - first:
+      213: -6844822107555420777
+    second: vinton_school_eight_box_84
+  - first:
+      213: 3377081614513839802
+    second: vinton_school_eight_box_85
+  - first:
+      213: 7432484429840564933
+    second: vinton_school_eight_box_86
+  - first:
+      213: 5842181649927813715
+    second: vinton_school_eight_box_87
+  - first:
+      213: -5750937290274900254
+    second: vinton_school_eight_box_88
+  - first:
+      213: -4567175278510512419
+    second: vinton_school_eight_box_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vinton_school_eight_box_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1326
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72aa857e5a9f46a0800000000000000
+      internalID: -6462777209763749254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1326
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9c97b32bfa328f0800000000000000
+      internalID: -566415948081673792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1326
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00399bdb121a7350800000000000000
+      internalID: 6015140163164385290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1326
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ebd7cf28ed7f0a0800000000000000
+      internalID: -6847760054230335852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1326
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc22e280e99b0d0800000000000000
+      internalID: -3406517885158109715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b14954ffd5b35b0800000000000000
+      internalID: -5387609178253288602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1248
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e877cb8e0efed1180800000000000000
+      internalID: -9142887919235860594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1248
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14adedd730fdf8fe0800000000000000
+      internalID: -1184482970885498303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_8
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1248
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5686c0d36525837c0800000000000000
+      internalID: -4091429731121207195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_9
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1248
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9db0cbd399405a60800000000000000
+      internalID: 7660703865553075612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c43af640a88dbbd0800000000000000
+      internalID: -2612781986838072128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_11
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1170
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f753a34af9aafa0800000000000000
+      internalID: -5788638843331313861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_12
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1170
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52a16bbe7773f4a0800000000000000
+      internalID: -6560768845955358113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_13
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1170
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fbe47da08b558c0800000000000000
+      internalID: -4011097536402112765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_14
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1170
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd989dcfda5529580800000000000000
+      internalID: -8821894514305562147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b9aecf33feb8b0800000000000000
+      internalID: -5134399069780069377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1092
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87f309a02600af60800000000000000
+      internalID: 8043435671828035471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_17
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1092
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763112bb64873c2a0800000000000000
+      internalID: -6718393973924097177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_18
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1092
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53397af131dde9f10800000000000000
+      internalID: 2278501535701242677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_19
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1092
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d918ba25a1af970800000000000000
+      internalID: 8789366565133982992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1014
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6d1a55a19c55e40800000000000000
+      internalID: 5644638822921787086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_21
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1014
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e36ec58dae7fa470800000000000000
+      internalID: 8408078313063343073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_22
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1014
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a1b62a6fb44e510800000000000000
+      internalID: 1577469292145482304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_23
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1014
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1207c1a17d82a2a60800000000000000
+      internalID: 7649971821363359777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_24
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1014
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdb353b90c9d27b0800000000000000
+      internalID: -5247366425339511301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b1086c1406b42e0800000000000000
+      internalID: -2140511362265113745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 936
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af34b847332eda3e0800000000000000
+      internalID: -2040726345502473222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_27
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 936
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6d8bdb409f1bc00800000000000000
+      internalID: 914785998091114215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_28
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 936
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13144fde2fe5f6ba0800000000000000
+      internalID: -6093547373341687503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_29
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 936
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f145786bcb08f860800000000000000
+      internalID: 7563808542427529719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bcc60324d8a3f50800000000000000
+      internalID: 6861952297672166168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_31
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 858
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdde6e7b4cea2c80800000000000000
+      internalID: -8346599150389895733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_32
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 858
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327558b74a0d4e560800000000000000
+      internalID: 7342222697386301219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_33
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 858
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0764129fd59eee0800000000000000
+      internalID: -1231349698522615561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_34
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 858
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17beae48aff78b0800000000000000
+      internalID: -5152123999904632328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b4ae14275991d70800000000000000
+      internalID: 9014400447123442486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_36
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 780
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcdf6532f13e5910800000000000000
+      internalID: 1827953415107370202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_37
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 780
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade498b0faa4f72a0800000000000000
+      internalID: -6737584401849692454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_38
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 780
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08203857497e47320800000000000000
+      internalID: 2554921513438610048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_39
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 780
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920a1c785004e330800000000000000
+      internalID: 3739113970663555743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64093ee32c6de17d0800000000000000
+      internalID: -2945680976486625210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_41
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 702
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71c23a0ed107c70800000000000000
+      internalID: 8966699708742113279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_42
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 702
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846b2831df9c0ba50800000000000000
+      internalID: 6534945148105832008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_43
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 702
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a739d6e58f35fa70800000000000000
+      internalID: 8860057686257514408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_44
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 702
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f243adcf27da4e7a0800000000000000
+      internalID: -6348758865305521105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ddc92ad85063a80800000000000000
+      internalID: -8487590341856404115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 624
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705ed3c0b769a89d0800000000000000
+      internalID: -2771237165462592249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_47
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 624
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7230f9d3737ee3b20800000000000000
+      internalID: 3116182216630010663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_48
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 624
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c33a419812be59f0800000000000000
+      internalID: -477748691868175424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_49
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 624
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b133061ee9083fd50800000000000000
+      internalID: 6769896084742353691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b667963f1c34680800000000000000
+      internalID: -8771954397997012133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_51
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 546
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05edf29289a87f0f0800000000000000
+      internalID: -1083244799228649904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_52
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 546
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e2243a0840c1af0800000000000000
+      internalID: -424459314338320890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_53
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 546
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab9688f187670b20800000000000000
+      internalID: 3100560676385889184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_54
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 546
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc67ab8193ab1be20800000000000000
+      internalID: 3364675151013246671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880e8fd88d9f24670800000000000000
+      internalID: 8521648153428549768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_56
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 468
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69401b25dda1ab3a0800000000000000
+      internalID: -6648972361981688682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_57
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 468
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a45daa704c3450800000000000000
+      internalID: 6069797293426779841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_58
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 468
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d65a29dd72d910800000000000000
+      internalID: 1860687967729145356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_59
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 468
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4e405b7ee9bef00800000000000000
+      internalID: 1147185248107554017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f5527f480549e0800000000000000
+      internalID: -1637893752165631529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_61
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 390
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4715b10cf270c15f0800000000000000
+      internalID: -784744333401435788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_62
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 390
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ffa4835d9eea90800000000000000
+      internalID: -7282710565377542736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_63
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 390
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cfd4915a482d0d0800000000000000
+      internalID: -3399508924082291631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_64
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 390
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bffd101cd2876db0800000000000000
+      internalID: -4798722996265156684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cccf6f008fbd30e0800000000000000
+      internalID: -2288462478898639671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_66
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 312
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e69938b595e9190800000000000000
+      internalID: -7953821642304950721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_67
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 312
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eded74870fda73590800000000000000
+      internalID: -7694490190017470754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_68
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 312
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed0052e6655c9130800000000000000
+      internalID: 3574826104597253609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_69
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 312
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d294a2d1536fe540800000000000000
+      internalID: 5039355711128376022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75b5ebc9ffb9c5d0800000000000000
+      internalID: -3041688993723468420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_71
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 234
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdcf8938b345f810800000000000000
+      internalID: 1798418084723150261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_72
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 234
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27326cb76c2d8540800000000000000
+      internalID: 5011710784387036972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_73
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 234
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d17ae6f1760930800000000000000
+      internalID: 4109097015331379566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_74
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 234
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea550efe08bb5ad0800000000000000
+      internalID: -2712371976029775135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0499a221fd46c7d30800000000000000
+      internalID: 4430527042670991680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_76
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 156
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1ae84345b974080800000000000000
+      internalID: -9203216527546998299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_77
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 156
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727fdb74715c1aac0800000000000000
+      internalID: -3845575903019141337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_78
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 156
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4e6a2c2553107f0800000000000000
+      internalID: -648178241795332903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_79
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 156
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd988029657c4f950800000000000000
+      internalID: 6482024938324134363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa1fe5d3565f0120800000000000000
+      internalID: 2382217645973773044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_81
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 78
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c50086c143632f0800000000000000
+      internalID: -993549371180032876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_82
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 78
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bd2942198497ac0800000000000000
+      internalID: -3856971817645057129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_83
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 78
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58237ed577a880130800000000000000
+      internalID: 3533226152953328261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_84
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 78
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7952b600f8e4201a0800000000000000
+      internalID: -6844822107555420777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe999af5ddcdde20800000000000000
+      internalID: 3377081614513839802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_86
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c44fb53d752760800000000000000
+      internalID: 7432484429840564933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_87
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ab045e149931150800000000000000
+      internalID: 5842181649927813715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_88
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 0
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6fd9711019030b0800000000000000
+      internalID: -5750937290274900254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vinton_school_eight_box_89
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 291
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd66f6938422e90c0800000000000000
+      internalID: -4567175278510512419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
