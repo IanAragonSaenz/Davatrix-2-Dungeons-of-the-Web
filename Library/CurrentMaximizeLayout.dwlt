@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 731
-  m_MinSize: {x: 678, y: 442}
-  m_MaxSize: {x: 12003, y: 8042}
+  m_MinSize: {x: 677, y: 442}
+  m_MaxSize: {x: 12002, y: 8042}
   vertical: 0
-  controlID: 3220
+  controlID: 10162
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,8 +133,8 @@ MonoBehaviour:
     y: 0
     width: 201
     height: 731
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 4}
   m_Panes:
   - {fileID: 4}
@@ -171,7 +171,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0a43ffffd449ffffbe4affffd82d0100
+      m_ExpandedIDs: a638ffff003affff243cffff303dffff363dffff3c3dffffca3dffffa63fffff0a43ffffd449ffffbe4affffd82d0100fa2d01000c3301001c330100b6350100c6350100d0350100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 477, y: 442}
   m_MaxSize: {x: 8002, y: 8042}
   vertical: 0
-  controlID: 3221
+  controlID: 10163
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 3222
+  controlID: 10164
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 424.7922, y: 54.809887, z: -1529.0209}
+    m_Target: {x: 154.88391, y: 146.3492, z: -1745.7893}
     speed: 2
-    m_Value: {x: 424.7922, y: 54.809887, z: -1529.0209}
+    m_Value: {x: 154.88391, y: 146.3492, z: -1745.7893}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -360,9 +360,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 834.7834
+    m_Target: 320.6174
     speed: 2
-    m_Value: 834.7834
+    m_Value: 320.6174
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -480,20 +480,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Classroom
+    - Assets/Scenes/prueba
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes/Classroom
+  - Assets/Scenes/prueba
   m_LastFoldersGridSize: 96
   m_LastProjectPath: /Users/hugogarza/Documents/Documents/Videojuego/Davatrix-2-Dungeons-of-the-Web
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f6270100
-    m_LastClickedID: 75766
-    m_ExpandedIDs: 00000000ea270100ec270100ee270100f0270100f2270100f4270100f62701000c28010000ca9a3b
+    scrollPos: {x: 0, y: 58}
+    m_SelectedIDs: 1c280100
+    m_LastClickedID: 75804
+    m_ExpandedIDs: 00000000ea270100ec270100ee270100f2270100f4270100f62701000c28010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,7 +521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea270100ee270100f0270100f2270100f4270100f62701000c28010000ca9a3b
+    m_ExpandedIDs: 00000000ea270100ec270100ee270100f2270100f4270100f62701000c28010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,8 +546,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: b6350100
+    m_LastClickedInstanceID: 79286
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a25100006e530000503c0000c83b0000e0430000366100004c4b00003c310100a49200002ed600001ed600000cd30000
     m_RenameOverlay:
@@ -668,7 +668,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 79286
   m_LastVerticalScrollValue: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 77272
+  m_LastSelectedObjectID: 79312
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
