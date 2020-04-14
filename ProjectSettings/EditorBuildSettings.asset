@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab/Laboratory.unity
     guid: 1368e96eb65352f48a1f917d4d1e6d6c
+  - enabled: 1
+    path: Assets/Scenes/Prueba/prueba.unity
+    guid: 6431c33e2ef78a544bf956367b0e09e3
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/main_menu.unity
+    guid: 9f164e5bd735fa64ca5210d8e4ae0dcc
+  - enabled: 1
+    path: Assets/Scenes/Internet First Level Village/FirstVillage.unity
+    guid: 6a6a733c034787b4ba02196066a9a397
   m_configObjects: {}

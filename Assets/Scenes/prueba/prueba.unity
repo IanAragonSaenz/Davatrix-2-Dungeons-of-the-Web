@@ -345,6 +345,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6436927782741976712, guid: 1f84335743d3346c4a4590067eb4d165,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 6436927783476647619, guid: 1f84335743d3346c4a4590067eb4d165,
         type: 3}
       propertyPath: m_LocalPosition.x
