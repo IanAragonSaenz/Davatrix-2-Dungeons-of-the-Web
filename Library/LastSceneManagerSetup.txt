@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Classroom/Classroom.unity
+- path: Assets/Scenes/Prueba_Enemigo/prueba enemigo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
