@@ -52,19 +52,14 @@ public class baseEnemy : MonoBehaviour
         float distance = (  Mathf.Sqrt( Mathf.Pow( davalos.transform.position.x - this.transform.position.x , 2  )  +
                             Mathf.Pow( davalos.transform.position.y - this.transform.position.y , 2  )  ) ) ;
         
-        if ( distance <= 40){
+        if ( distance <= 20){
 
             Attack attack = calculateAttack();
             performAttack(attack);
             
         }else if ( distance <= 100){
 
-            float tempX = ( davalos.transform.position.x < transform.position.x ) ? -1f : 1f;
-            float tempY = ( davalos.transform.position.y < transform.position.y ) ? 1f : -1f;
-
-            Vector2 temp = new Vector2(tempX * Time.deltaTime + transform.position.x ,  tempY * Time.deltaTime + transform.position.y);
-
-            this.transform.position = temp;
+            this.transform.position = Vector3.MoveTowards(transform.position, davalos.transform.position, 0.2f);
 
         }
     }
@@ -107,14 +102,15 @@ public class baseEnemy : MonoBehaviour
 
         Quaternion angleQuanterion = new Quaternion(transform.position.x,transform.position.y,angle,0);
 
-        Instantiate(bullet,this.transform.position + new Vector3(1,1,-1) * Random.Range(0.25f,1f), angleQuanterion);
+        GameObject projectile =Instantiate(bullet,this.transform.position + new Vector3(1,1,-1) * Random.Range(0.25f,1f), angleQuanterion);
 
         Cooldown(attack);
+        
     }
 
     IEnumerator Cooldown(Attack attack){
-        for(int i = 0 ; i < attack.x;i++){
-            yield return new WaitForSeconds( attack.x *100 * Time.deltaTime );
-        }
+
+        yield return new WaitForSeconds( attack.x *1000 * Time.deltaTime );
+            
     }
 }
