@@ -20,17 +20,29 @@ public class baseEnemy : MonoBehaviour
         return (10 - (0.33f * x));
     }
 
-    Attack a1 = new Attack( Random.Range(1,30)  , Random.Range(1,10) );
-    Attack a2 = new Attack( Random.Range(1,30)  , Random.Range(1,10) );
-    Attack a3 = new Attack( Random.Range(1,30)  , Random.Range(1,10) );
-    Attack a4 = new Attack( Random.Range(1,30)  , Random.Range(1,10) );
-    GameObject davalos = GameObject.Find("Player");
-    GameObject bullet = GameObject.Find("Enemy Projectile");
+ 
+
+    Attack a1;
+    Attack a2; 
+    Attack a3;
+    Attack a4;
+    GameObject davalos ;
+    GameObject bullet;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        float x = Random.Range(5,25);
+        float y = Random.Range(5,25);
 
+        a1 = new Attack( x*.25f  , y );
+        a2 = new Attack( x * .5f , y *.75f );
+        a3 = new Attack( x * .75f  , y *.5f );
+        a4 = new Attack( x  , y *.25f  );
+
+        davalos = GameObject.Find("Player");
+        bullet  = GameObject.Find("Enemy Projectile");
         
     }
 
@@ -43,7 +55,6 @@ public class baseEnemy : MonoBehaviour
         if ( distance <= 40){
 
             Attack attack = calculateAttack();
-            Debug.Log("I");
             performAttack(attack);
             
         }else if ( distance <= 100){
@@ -60,8 +71,8 @@ public class baseEnemy : MonoBehaviour
 
     Attack calculateAttack()
     {
-        float biasX = (Random.Range(0.33f, 0.97f) * 30) /2;
-        float biasY = (Random.Range(0.33f,0.97f) * 10) / 2;
+        float biasX =5; //(Random.Range(0.33f, 0.97f) * 30) /2;
+        float biasY = 10; //(Random.Range(0.33f,0.97f) * 10) / 2;
 
         float tempX1 = ((F(a1.x) < a1.y) ? 0.25f : 0f );
         float tempX2 = ((F(a2.x) < a2.y) ? 0.25f : 0f );
@@ -90,18 +101,20 @@ public class baseEnemy : MonoBehaviour
 
     void performAttack(Attack attack){
 
-        float projectileX = Mathf.Pow( davalos.transform.position.x - transform.position.x , 2);
-        float projectileY = Mathf.Pow( davalos.transform.position.y - transform.position.y , 2);
+        float projectileX = Mathf.Pow( davalos.transform.position.x - transform.position.x , 2) +10;
+        float projectileY = Mathf.Pow( davalos.transform.position.y - transform.position.y , 2) + 10;
         float angle = Mathf.Sqrt( projectileX + projectileY );
 
         Quaternion angleQuanterion = new Quaternion(transform.position.x,transform.position.y,angle,0);
 
-        Instantiate(bullet,this.transform.position, angleQuanterion);
+        Instantiate(bullet,this.transform.position + new Vector3(1,1,-1) * Random.Range(0.25f,1f), angleQuanterion);
 
         Cooldown(attack);
     }
 
     IEnumerator Cooldown(Attack attack){
-        yield return new WaitForSeconds( attack.x / 10 );
+        for(int i = 0 ; i < attack.x;i++){
+            yield return new WaitForSeconds( attack.x *100 * Time.deltaTime );
+        }
     }
 }
