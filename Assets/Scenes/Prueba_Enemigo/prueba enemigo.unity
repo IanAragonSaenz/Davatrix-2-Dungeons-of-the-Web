@@ -218,6 +218,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 354d20fd038b8a34994358fa24850d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &807081855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000822465620646087, guid: 1615fd9b9026f194d83bee8d10511152,
+    type: 3}
+  m_PrefabInstance: {fileID: 167318072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &807081859
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807081855}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1560500619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -297,6 +324,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb23ae633c831a34297fc06fadbd7673, type: 3}
+--- !u!1 &1571894684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1090501919619653268, guid: fb23ae633c831a34297fc06fadbd7673,
+    type: 3}
+  m_PrefabInstance: {fileID: 1560500619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1571894687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571894684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163686e12114be54bb829dd7a5fb5510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1571894688
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571894684}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2014927207
 GameObject:
   m_ObjectHideFlags: 0
