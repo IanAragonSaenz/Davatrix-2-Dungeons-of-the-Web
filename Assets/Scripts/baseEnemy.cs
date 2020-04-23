@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class baseEnemy : MonoBehaviour
 {
-    struct Attack
+    private struct Attack
     {
         public float x;
         public float y;
@@ -22,12 +22,14 @@ public class baseEnemy : MonoBehaviour
 
  
 
-    Attack a1;
-    Attack a2; 
-    Attack a3;
-    Attack a4;
+    private Attack a1;
+    private Attack a2; 
+    private Attack a3;
+    private Attack a4;
     GameObject davalos ;
-    GameObject bullet;
+    public GameObject bullet;
+    private float cooldown;
+    public float cooldownControl = 6f;
 
 
     // Start is called before the first frame update
@@ -41,26 +43,25 @@ public class baseEnemy : MonoBehaviour
         a3 = new Attack( x * .75f  , y *.5f );
         a4 = new Attack( x  , y *.25f  );
 
+        cooldown = Time.time;
         davalos = GameObject.Find("Player");
-        bullet  = GameObject.Find("Enemy Projectile");
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distance = (  Mathf.Sqrt( Mathf.Pow( davalos.transform.position.x - this.transform.position.x , 2  )  +
-                            Mathf.Pow( davalos.transform.position.y - this.transform.position.y , 2  )  ) ) ;
-        
-        if ( distance <= 20){
+        float distance = Vector2.Distance(davalos.transform.position, transform.position);
+     
+        if (distance < 25){
+            if ( cooldown <= Time.time ){
+                Attack attack = calculateAttack();
+                performAttack(attack);
+                cooldown = Time.time + (attack.x / 6 );
+            }    
+        }else if (distance < 50){
 
-            Attack attack = calculateAttack();
-            performAttack(attack);
-            
-        }else if ( distance <= 100){
-
-            this.transform.position = Vector3.MoveTowards(transform.position, davalos.transform.position, 0.2f);
-
+            transform.position = Vector2.MoveTowards(transform.position, davalos.transform.position, 0.2f);
         }
     }
 
@@ -96,21 +97,19 @@ public class baseEnemy : MonoBehaviour
 
     void performAttack(Attack attack){
 
-        float projectileX = Mathf.Pow( davalos.transform.position.x - transform.position.x , 2) +10;
-        float projectileY = Mathf.Pow( davalos.transform.position.y - transform.position.y , 2) + 10;
-        float angle = Mathf.Sqrt( projectileX + projectileY );
+        //Creates a temp bullet object
+        GameObject tempBullet = bullet;
+        float bulletTime = Time.time + 10 * Time.deltaTime;
 
-        Quaternion angleQuanterion = new Quaternion(transform.position.x,transform.position.y,angle,0);
+        //defines the speed of the bullet based on the calculated bullet speed, the line above the time it will take to destroy it
+        tempBullet.GetComponent<baseProjectile>().projectileSpeed = attack.y;
+        tempBullet.GetComponent<baseProjectile>().bulletDestroy = bulletTime;
+        tempBullet.GetComponent<baseProjectile>().followPlayer = false;
 
-        GameObject projectile =Instantiate(bullet,this.transform.position + new Vector3(1,1,-1) * Random.Range(0.25f,1f), angleQuanterion);
-
-        Cooldown(attack);
         
-    }
-
-    IEnumerator Cooldown(Attack attack){
-
-        yield return new WaitForSeconds( attack.x *1000 * Time.deltaTime );
-            
+        //Creates the instance of the new bullet
+        Instantiate(tempBullet,this.transform.position,Quaternion.identity);
+        
+        
     }
 }
