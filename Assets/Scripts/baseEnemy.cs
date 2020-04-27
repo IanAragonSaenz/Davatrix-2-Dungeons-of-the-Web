@@ -38,10 +38,10 @@ public class baseEnemy : MonoBehaviour
         float x = Random.Range(5,25);
         float y = Random.Range(5,25);
 
-        a1 = new Attack( x*.25f  , y );
-        a2 = new Attack( x * .5f , y *.75f );
-        a3 = new Attack( x * .75f  , y *.5f );
-        a4 = new Attack( x  , y *.25f  );
+        a1 = new Attack( Random.Range(5,30)  , Random.Range(2,10) );
+        a2 = new Attack( Random.Range(5,30) , Random.Range(2,10) );
+        a3 = new Attack( Random.Range(5,30)  , Random.Range(2,10) );
+        a4 = new Attack( Random.Range(5,30) , Random.Range(2,10)  );
 
         cooldown = Time.time;
         davalos = GameObject.Find("Player");
@@ -53,22 +53,22 @@ public class baseEnemy : MonoBehaviour
     {
         float distance = Vector2.Distance(davalos.transform.position, transform.position);
      
-        if (distance < 25){
+        if (distance < 25 ){
             if ( cooldown <= Time.time ){
                 Attack attack = calculateAttack();
                 performAttack(attack);
                 cooldown = Time.time + (attack.x / 6 );
             }    
-        }else if (distance < 50){
-
-            transform.position = Vector2.MoveTowards(transform.position, davalos.transform.position, 0.2f);
         }
     }
 
+
+
     Attack calculateAttack()
     {
-        float biasX =5; //(Random.Range(0.33f, 0.97f) * 30) /2;
-        float biasY = 10; //(Random.Range(0.33f,0.97f) * 10) / 2;
+        //D
+        float biasX =5;
+        float biasY = 10;
 
         float tempX1 = ((F(a1.x) < a1.y) ? 0.25f : 0f );
         float tempX2 = ((F(a2.x) < a2.y) ? 0.25f : 0f );

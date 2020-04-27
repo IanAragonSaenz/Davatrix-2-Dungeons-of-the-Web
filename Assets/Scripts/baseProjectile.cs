@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class baseProjectile : MonoBehaviour
 {
 
@@ -18,7 +17,6 @@ public class baseProjectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         davalos = GameObject.Find("Player");
         this.transform.localScale= new Vector2(projectileSpeed/10 + 4f, projectileSpeed/10 + 4f);
 
@@ -27,7 +25,7 @@ public class baseProjectile : MonoBehaviour
         davalosY = davalos.transform.position.y;
                 
         //Destroys the bullet after this time
-        Destroy(this.gameObject, bulletDestroy + projectileSpeed / 5);
+
 
     }
 
@@ -47,14 +45,8 @@ public class baseProjectile : MonoBehaviour
         
         }else{
 
-            this.transform.position = Vector2.MoveTowards(transform.position, new Vector2(davalosX*10,davalosY*10), tempSpeed * Time.deltaTime);
+            this.transform.position = Vector2.MoveTowards(transform.position, new Vector2(davalosX,davalosY), tempSpeed * Time.deltaTime);
 
         }
-    }
-
-    void OnCollisionEnter(Collision collision){
-        
-       Destroy(this.gameObject);
-
     }
 }
