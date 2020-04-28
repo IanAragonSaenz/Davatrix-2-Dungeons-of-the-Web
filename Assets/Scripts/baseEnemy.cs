@@ -16,20 +16,20 @@ public class baseEnemy : MonoBehaviour
         }
     }
 
-    float F(float x){
-        return (10 - (0.33f * x));
-    }
-
- 
-
     private Attack a1;
     private Attack a2; 
     private Attack a3;
     private Attack a4;
     GameObject davalos ;
+
     public GameObject bullet;
+
     private float cooldown;
     public float cooldownControl = 6f;
+
+    public int HP = 20;
+
+    public GameObject playerWeapon;
 
 
     // Start is called before the first frame update
@@ -42,6 +42,7 @@ public class baseEnemy : MonoBehaviour
         a2 = new Attack( Random.Range(5,30) , Random.Range(2,10) );
         a3 = new Attack( Random.Range(5,30)  , Random.Range(2,10) );
         a4 = new Attack( Random.Range(5,30) , Random.Range(2,10)  );
+        
 
         cooldown = Time.time;
         davalos = GameObject.Find("Player");
@@ -51,22 +52,44 @@ public class baseEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector2.Distance(davalos.transform.position, transform.position);
-     
-        if (distance < 25 ){
-            if ( cooldown <= Time.time ){
-                Attack attack = calculateAttack();
-                performAttack(attack);
-                cooldown = Time.time + (attack.x / 6 );
-            }    
+        if (HP <= 0){
+            Instantiate(this,this.transform.position,Quaternion.identity);
+            Destroy(this.gameObject);
         }
+        
+        RaycastHit2D hit = Physics2D.Raycast(this.transform.position,davalos.transform.position,30f);
+     
+        if ( hit.collider != null ){
+
+            GameObject tempObject = hit.collider.gameObject;
+            if ( tempObject.gameObject != null){
+
+                float distance = Vector2.Distance(davalos.transform.position,hit.transform.position);
+
+                if(  distance <= 30){
+
+                    if ( cooldown <= Time.time ){
+                        
+                        Attack attack = calculateAttack();
+                        performAttack(attack);
+                        cooldown = Time.time + (attack.x / 6 );
+                    
+                    }
+                }
+            }
+        }
+    }
+
+
+    float F(float x){
+        return (10 - (0.33f * x));
     }
 
 
 
     Attack calculateAttack()
     {
-        //D
+        
         float biasX =5;
         float biasY = 10;
 
@@ -108,8 +131,11 @@ public class baseEnemy : MonoBehaviour
 
         
         //Creates the instance of the new bullet
-        Instantiate(tempBullet,this.transform.position,Quaternion.identity);
+        GameObject enemyBulletSpawn = Instantiate(tempBullet,this.transform.position,Quaternion.identity);
+
+        Destroy(enemyBulletSpawn, Time.time + 30 * Time.deltaTime);
         
         
     }
+
 }

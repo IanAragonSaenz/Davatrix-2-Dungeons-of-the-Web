@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1137796986781276509}
   - component: {fileID: 1137796986781276508}
   - component: {fileID: 8681365804763736962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Base_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,3 +97,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1090501919619653268, guid: fb23ae633c831a34297fc06fadbd7673, type: 3}
   cooldownControl: 6
+  HP: 0
+  playerWeapon: {fileID: 1000822465620646087, guid: 1615fd9b9026f194d83bee8d10511152,
+    type: 3}
