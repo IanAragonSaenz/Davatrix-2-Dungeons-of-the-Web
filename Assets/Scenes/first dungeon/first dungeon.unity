@@ -137888,6 +137888,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 508062538}
+    - target: {fileID: 7300911602642615489, guid: 4faceac30e616e648a8e994d912c6ce8,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7300911602642615491, guid: 4faceac30e616e648a8e994d912c6ce8,
         type: 3}
       propertyPath: m_LocalPosition.x
