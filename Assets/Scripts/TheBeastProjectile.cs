@@ -41,9 +41,9 @@ public class TheBeastProjectile : MonoBehaviour
             attackASpeed += attackASpeedIncrement;
         }
 
-        if( attackType == 'B'){
+        if( attackType == 'B' ){
 
-            transform.position += (Vector3)direction * Time.deltaTime;
+            transform.position += (Vector3)direction * (Time.deltaTime *0.85f );
             attackBPreviousPosition.Add(transform.position);
             attackBListSize ++;
 
@@ -55,18 +55,19 @@ public class TheBeastProjectile : MonoBehaviour
             float angle = Vector2.Angle(
                                         transform.position , 
                                         daddy.transform.position 
-                                        ) * (Time.deltaTime * 3) ;
+                                        );
+            angle *=  Time.deltaTime * (( angle > 10) ? 8 : 120);
 
             Vector2 tempDirection = new Vector2( 
-                                        -angle * Random.Range(0.1f,1.5f) , 
-                                        -angle  * Random.Range(0.1f,1.5f)
+                                        angle * Random.Range(0.1f,1.5f) * ((angle % 3 == 0) ? 1 : -1) , 
+                                        angle * Random.Range(0.1f,1.5f) * ((angle % 3 == 0) ? 1 : -1) 
                                     );
 
             GameObject projectile = Instantiate(
                                                 baby, 
                                                 attackBPreviousPosition[ 
-                                                        ( attackBListSize >  1) ? 
-                                                        attackBListSize - 3 : 0   ],
+                                                        ( attackBListSize >  5) ? 
+                                                        attackBListSize - 5 : 0   ],
                                                 Quaternion.identity
                                                 );
 
@@ -81,7 +82,9 @@ public class TheBeastProjectile : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
+        if( other.tag == "Boss") return;
         if( other.tag != "Boss Projectile"){
+
             if( attackType == 'B'){
                 if( attackBExplosion) {
 
@@ -92,6 +95,12 @@ public class TheBeastProjectile : MonoBehaviour
                 }else{
                     Destroy(this.gameObject);
                 }
+            }else if ( attackType == 'C'){
+
+                GenerateProjectile(Random.Range(10,20));
+                Destroy(this.gameObject);
+
+
             }else{
                 Destroy(this.gameObject);
             }

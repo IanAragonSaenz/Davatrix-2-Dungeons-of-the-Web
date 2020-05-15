@@ -4,10 +4,24 @@ using UnityEngine;
 
 public class TheBeast : MonoBehaviour
 {
+
+    public GameObject baby;
+    public GameObject shadow;
+
+    List<GameObject> attackAProjectiles;
+    int size;
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+  
+        size = -1;
+        attackAProjectiles = new List<GameObject>();
+        StartCoroutine( AttackA(0) );
+      
     }
 
     // Update is called once per frame
@@ -15,4 +29,71 @@ public class TheBeast : MonoBehaviour
     {
         
     }
+    
+
+    IEnumerator AttackA(int attackAControl){
+        
+        if( attackAControl < 100) {
+            Debug.Log("HOLAAAA");
+            GameObject projectile = Instantiate(baby, transform.position,Quaternion.identity);
+            float range = Random.Range(0.001f,0.4f) ;
+            float speed = Random.Range(0.8f,1f) * range;
+            range *= (range % 2  ==  0  ) ? -1 : 1; 
+            projectile.GetComponent<TheBeastProjectile>().attackType = 'A';
+            projectile.GetComponent<TheBeastProjectile>().attackARangeIncrement = range / 80;
+            projectile.GetComponent<TheBeastProjectile>().attackASpeedIncrement = range * Random.Range(0.08f,0.1f);
+            projectile.GetComponent<TheBeastProjectile>().attackARange = range;
+            projectile.GetComponent<TheBeastProjectile>().attackASpeed = speed;
+
+            yield return new WaitForSeconds(0.125f);
+            attackAControl ++;
+            attackAProjectiles.Add(projectile);
+            size++;
+            StartCoroutine(AttackA(attackAControl));
+
+        }else{
+            AttackB(0, attackAProjectiles, size);
+        }
+    }
+
+
+    void AttackB(int num, List<GameObject> attackAProjectiles, int size){
+
+ 
+        if( num <= 360 ){
+            
+            Vector2 tempDirection =  new Vector2(num * Random.Range(-2f,2),num * Random.Range(-3f,2f)) * Time.deltaTime;
+            GameObject projectile = Instantiate(
+                                    baby, 
+                                    transform.position,
+                                    Quaternion.identity
+                                    );
+        
+            projectile.GetComponent<TheBeastProjectile>().attackType = 'B';
+            projectile.GetComponent<TheBeastProjectile>().attackBExplosion = true;
+            projectile.GetComponent<TheBeastProjectile>().direction = tempDirection;
+            if (size > 0){
+                for(int i = 0; i <= size; i++){
+                    Destroy(attackAProjectiles[i].gameObject);
+                }
+                attackAProjectiles.Clear();
+                size = -1;
+            }
+            AttackB( num + 5, attackAProjectiles, size);
+
+        }else{
+            StartCoroutine(AttackPause(15));
+        }
+        
+    }
+
+
+    IEnumerator AttackPause(int amount){
+        yield return new WaitForSeconds(amount);
+
+        Start();
+        
+    }
+
+    
 }
