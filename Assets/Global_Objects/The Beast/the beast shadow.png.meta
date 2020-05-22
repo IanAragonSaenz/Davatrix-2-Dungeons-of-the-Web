@@ -1,0 +1,3068 @@
+fileFormatVersion: 2
+guid: c627d48c0e71a0941ab42a784083b4eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5694022683591551626
+    second: the beast shadow_0
+  - first:
+      213: 3411475468167131192
+    second: the beast shadow_1
+  - first:
+      213: -2065309355780422865
+    second: the beast shadow_2
+  - first:
+      213: 5449697971561612024
+    second: the beast shadow_3
+  - first:
+      213: 6835152131502826953
+    second: the beast shadow_4
+  - first:
+      213: 404737636878983884
+    second: the beast shadow_5
+  - first:
+      213: -3524515510613732892
+    second: the beast shadow_6
+  - first:
+      213: 1688345250390251189
+    second: the beast shadow_7
+  - first:
+      213: 8304405502409860409
+    second: the beast shadow_8
+  - first:
+      213: -7010627176498569462
+    second: the beast shadow_9
+  - first:
+      213: 2839461691205677044
+    second: the beast shadow_10
+  - first:
+      213: -2957478565908405939
+    second: the beast shadow_11
+  - first:
+      213: -7893033373426730313
+    second: the beast shadow_12
+  - first:
+      213: 6469341218620998135
+    second: the beast shadow_13
+  - first:
+      213: 7212050404095636800
+    second: the beast shadow_14
+  - first:
+      213: -7399405044389759030
+    second: the beast shadow_15
+  - first:
+      213: 574873040172588840
+    second: the beast shadow_16
+  - first:
+      213: -8439774403754885073
+    second: the beast shadow_17
+  - first:
+      213: 3687252787267565302
+    second: the beast shadow_18
+  - first:
+      213: 3003104836421126973
+    second: the beast shadow_19
+  - first:
+      213: 29773211865391004
+    second: the beast shadow_20
+  - first:
+      213: 8604586195929561172
+    second: the beast shadow_21
+  - first:
+      213: 4168732049583757001
+    second: the beast shadow_22
+  - first:
+      213: 4016568892437418172
+    second: the beast shadow_23
+  - first:
+      213: 3392280076589027167
+    second: the beast shadow_24
+  - first:
+      213: -3690506898069277232
+    second: the beast shadow_25
+  - first:
+      213: -7245252529256040841
+    second: the beast shadow_26
+  - first:
+      213: -2216999955087072264
+    second: the beast shadow_27
+  - first:
+      213: -7742784746954357729
+    second: the beast shadow_28
+  - first:
+      213: 7221818644747764373
+    second: the beast shadow_29
+  - first:
+      213: 5803130433992923010
+    second: the beast shadow_30
+  - first:
+      213: 8362192188031168932
+    second: the beast shadow_31
+  - first:
+      213: 1263353919107769436
+    second: the beast shadow_32
+  - first:
+      213: -7259821253735382882
+    second: the beast shadow_33
+  - first:
+      213: -6349297524626974511
+    second: the beast shadow_34
+  - first:
+      213: 3612152129841208515
+    second: the beast shadow_35
+  - first:
+      213: 4424541207550190143
+    second: the beast shadow_36
+  - first:
+      213: 4971635828330900766
+    second: the beast shadow_37
+  - first:
+      213: -7510703453687500275
+    second: the beast shadow_38
+  - first:
+      213: -535479479622033020
+    second: the beast shadow_39
+  - first:
+      213: 5571157874048828954
+    second: the beast shadow_40
+  - first:
+      213: 2537646657659743506
+    second: the beast shadow_41
+  - first:
+      213: -5422152595060868611
+    second: the beast shadow_42
+  - first:
+      213: -8241968607619519473
+    second: the beast shadow_43
+  - first:
+      213: 1644073781976821751
+    second: the beast shadow_44
+  - first:
+      213: -7205557389199600748
+    second: the beast shadow_45
+  - first:
+      213: -5337166573901704551
+    second: the beast shadow_46
+  - first:
+      213: -345289876682055795
+    second: the beast shadow_47
+  - first:
+      213: -8631621056150062167
+    second: the beast shadow_48
+  - first:
+      213: 2246223913226707005
+    second: the beast shadow_49
+  - first:
+      213: 7907264023547182118
+    second: the beast shadow_50
+  - first:
+      213: 696268576070035781
+    second: the beast shadow_51
+  - first:
+      213: 8924916246474715194
+    second: the beast shadow_52
+  - first:
+      213: -7094106895786119241
+    second: the beast shadow_53
+  - first:
+      213: 6343751660798899479
+    second: the beast shadow_54
+  - first:
+      213: 4478153954538470582
+    second: the beast shadow_55
+  - first:
+      213: 5299035330362192449
+    second: the beast shadow_56
+  - first:
+      213: -2851839036963441728
+    second: the beast shadow_57
+  - first:
+      213: -1372440767895408218
+    second: the beast shadow_58
+  - first:
+      213: 1664658605746218142
+    second: the beast shadow_59
+  - first:
+      213: 6521602191312858423
+    second: the beast shadow_60
+  - first:
+      213: 8196945732056211401
+    second: the beast shadow_61
+  - first:
+      213: 7856579058188308568
+    second: the beast shadow_62
+  - first:
+      213: -6836845002498710013
+    second: the beast shadow_63
+  - first:
+      213: -7018238617486135212
+    second: the beast shadow_64
+  - first:
+      213: 480692450423120825
+    second: the beast shadow_65
+  - first:
+      213: 1437231929775977797
+    second: the beast shadow_66
+  - first:
+      213: 1414928346793436690
+    second: the beast shadow_67
+  - first:
+      213: 235011988787772115
+    second: the beast shadow_68
+  - first:
+      213: 5397117554578072892
+    second: the beast shadow_69
+  - first:
+      213: -7387033095300374183
+    second: the beast shadow_70
+  - first:
+      213: -1952753102867432640
+    second: the beast shadow_71
+  - first:
+      213: -8271420881566390379
+    second: the beast shadow_72
+  - first:
+      213: -719676081421273983
+    second: the beast shadow_73
+  - first:
+      213: 2398679427857950732
+    second: the beast shadow_74
+  - first:
+      213: -4139068000075573023
+    second: the beast shadow_75
+  - first:
+      213: 5524383925046590750
+    second: the beast shadow_76
+  - first:
+      213: 980716970883441739
+    second: the beast shadow_77
+  - first:
+      213: 4403192807419713151
+    second: the beast shadow_78
+  - first:
+      213: 3494847198095228282
+    second: the beast shadow_79
+  - first:
+      213: -63128591409186564
+    second: the beast shadow_80
+  - first:
+      213: 8819205664201037520
+    second: the beast shadow_81
+  - first:
+      213: 3925764268869366417
+    second: the beast shadow_82
+  - first:
+      213: -13768981943605963
+    second: the beast shadow_83
+  - first:
+      213: 2946252943859152524
+    second: the beast shadow_84
+  - first:
+      213: -7847763811069920539
+    second: the beast shadow_85
+  - first:
+      213: -2640951548853815535
+    second: the beast shadow_86
+  - first:
+      213: -9180437840035467222
+    second: the beast shadow_87
+  - first:
+      213: -2391553564665179788
+    second: the beast shadow_88
+  - first:
+      213: 2959525724951721562
+    second: the beast shadow_89
+  - first:
+      213: -6204747310537836985
+    second: the beast shadow_90
+  - first:
+      213: -2859548695510370331
+    second: the beast shadow_91
+  - first:
+      213: -1531730404781341284
+    second: the beast shadow_92
+  - first:
+      213: -2445644731493561404
+    second: the beast shadow_93
+  - first:
+      213: -2167213487840220251
+    second: the beast shadow_94
+  - first:
+      213: 8527803150512224051
+    second: the beast shadow_95
+  - first:
+      213: 9168086258844770299
+    second: the beast shadow_96
+  - first:
+      213: 2903243388990166560
+    second: the beast shadow_97
+  - first:
+      213: 7933055834796774595
+    second: the beast shadow_98
+  - first:
+      213: 318728829512010774
+    second: the beast shadow_99
+  - first:
+      213: 3498555381705689431
+    second: the beast shadow_100
+  - first:
+      213: 6998967657316273896
+    second: the beast shadow_101
+  - first:
+      213: -3265397958081879291
+    second: the beast shadow_102
+  - first:
+      213: 1782689394101110155
+    second: the beast shadow_103
+  - first:
+      213: 4425036647297485009
+    second: the beast shadow_104
+  - first:
+      213: 4711748953030458914
+    second: the beast shadow_105
+  - first:
+      213: -1115696382693719332
+    second: the beast shadow_106
+  - first:
+      213: -1701056641356831318
+    second: the beast shadow_107
+  - first:
+      213: -8711869275603648128
+    second: the beast shadow_108
+  - first:
+      213: 7174279827136716447
+    second: the beast shadow_109
+  - first:
+      213: 9184104372657652668
+    second: the beast shadow_110
+  - first:
+      213: 3051132047326772852
+    second: the beast shadow_111
+  - first:
+      213: 742558522268605545
+    second: the beast shadow_112
+  - first:
+      213: -6025220255258820113
+    second: the beast shadow_113
+  - first:
+      213: 7845260816076260083
+    second: the beast shadow_114
+  - first:
+      213: -6777860783103078542
+    second: the beast shadow_115
+  - first:
+      213: 2101934849612497745
+    second: the beast shadow_116
+  - first:
+      213: 1507876559333845858
+    second: the beast shadow_117
+  - first:
+      213: -3039534338314307592
+    second: the beast shadow_118
+  - first:
+      213: -2839109223863505881
+    second: the beast shadow_119
+  - first:
+      213: -127732393731156279
+    second: the beast shadow_120
+  - first:
+      213: 2036294252139939457
+    second: the beast shadow_121
+  - first:
+      213: -5321945295381056448
+    second: the beast shadow_122
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: the beast shadow_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 5142
+        width: 348
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aad76667b350f40800000000000000
+      internalID: 5694022683591551626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 5141
+        width: 347
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830bf001ddef75f20800000000000000
+      internalID: 3411475468167131192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_2
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 5149
+        width: 350
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23ca69551c8653e0800000000000000
+      internalID: -2065309355780422865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_3
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 5155
+        width: 352
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c8107e6731ab40800000000000000
+      internalID: 5449697971561612024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_4
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 5152
+        width: 352
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5eaff36a65bde50800000000000000
+      internalID: 6835152131502826953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_5
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 5158
+        width: 367
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc227618cbaed9500800000000000000
+      internalID: 404737636878983884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_6
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 5155
+        width: 365
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1938811d7661fc0800000000000000
+      internalID: -3524515510613732892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_7
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 5155
+        width: 363
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b69abb5f053e6710800000000000000
+      internalID: 1688345250390251189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_8
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 5155
+        width: 363
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93560f94ecc2f3370800000000000000
+      internalID: 8304405502409860409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_9
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 5158
+        width: 358
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f5a141abf35be90800000000000000
+      internalID: -7010627176498569462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_10
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 5166
+        width: 352
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffe4a13d5bc76720800000000000000
+      internalID: 2839461691205677044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 4652
+        width: 354
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41a238e9ece4f6d0800000000000000
+      internalID: -2957478565908405939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 5073
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bab89847ff467290800000000000000
+      internalID: -7893033373426730313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_13
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 4649
+        width: 352
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f182b2ff87b7c950800000000000000
+      internalID: 6469341218620998135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 4657
+        width: 357
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0453556a1a9561460800000000000000
+      internalID: 7212050404095636800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 4652
+        width: 355
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac73aebd058005990800000000000000
+      internalID: -7399405044389759030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_16
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 4657
+        width: 358
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f9f66fbfb5af700800000000000000
+      internalID: 574873040172588840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_17
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 4658
+        width: 354
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2081c745e5efda80800000000000000
+      internalID: -8439774403754885073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_18
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 4654
+        width: 357
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f626cfd0cb2330800000000000000
+      internalID: 3687252787267565302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_19
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 4657
+        width: 354
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b832600fb2da920800000000000000
+      internalID: 3003104836421126973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_20
+      rect:
+        serializedVersion: 2
+        x: 4204
+        y: 4657
+        width: 357
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f1f051496c96000800000000000000
+      internalID: 29773211865391004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_21
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 4652
+        width: 355
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4587c9f5e81a96770800000000000000
+      internalID: 8604586195929561172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_22
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 4654
+        width: 355
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6d93356bf4ad930800000000000000
+      internalID: 4168732049583757001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_23
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4135
+        width: 355
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0dd918028bdb730800000000000000
+      internalID: 4016568892437418172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_24
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 4132
+        width: 354
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f49bfa1ccc31f20800000000000000
+      internalID: 3392280076589027167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_25
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 4135
+        width: 352
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5b373878fa8ccc0800000000000000
+      internalID: -3690506898069277232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_26
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 4129
+        width: 352
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77671bd2631b37b90800000000000000
+      internalID: -7245252529256040841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_27
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 4132
+        width: 352
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f36af97942ab31e0800000000000000
+      internalID: -2216999955087072264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_28
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 4132
+        width: 349
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f140971bb4a1c8490800000000000000
+      internalID: -7742784746954357729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_29
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 4126
+        width: 348
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592cb786bcd093460800000000000000
+      internalID: 7221818644747764373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_30
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 4126
+        width: 349
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2871867226cd88050800000000000000
+      internalID: 5803130433992923010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_31
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 4120
+        width: 333
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1f42f7d797c0470800000000000000
+      internalID: 8362192188031168932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_32
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 4569
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54240622b5588110800000000000000
+      internalID: 1263353919107769436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_33
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 4115
+        width: 337
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90854ea80fef3b90800000000000000
+      internalID: -7259821253735382882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_34
+      rect:
+        serializedVersion: 2
+        x: 5191
+        y: 4115
+        width: 343
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d897579a83c2e7a0800000000000000
+      internalID: -6349297524626974511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3602
+        width: 347
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc1bdd5931f02230800000000000000
+      internalID: 3612152129841208515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3598
+        width: 352
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f326b1a39c0276d30800000000000000
+      internalID: 4424541207550190143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_37
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3593
+        width: 337
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1da44ce17ccef440800000000000000
+      internalID: 4971635828330900766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_38
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 3596
+        width: 335
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0238a5900f94c790800000000000000
+      internalID: -7510703453687500275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_39
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 3593
+        width: 330
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4812e9810489198f0800000000000000
+      internalID: -535479479622033020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_40
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 3590
+        width: 330
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a160d46b19ab05d40800000000000000
+      internalID: 5571157874048828954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_41
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3590
+        width: 327
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d244ba038873320800000000000000
+      internalID: 2537646657659743506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_42
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 3590
+        width: 327
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df93f6d41f4a0c4b0800000000000000
+      internalID: -5422152595060868611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_43
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 3588
+        width: 325
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ceaec1835ae9d80800000000000000
+      internalID: -8241968607619519473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_44
+      rect:
+        serializedVersion: 2
+        x: 4663
+        y: 3585
+        width: 324
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffe24fd46ce0d610800000000000000
+      internalID: 1644073781976821751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_45
+      rect:
+        serializedVersion: 2
+        x: 5174
+        y: 3585
+        width: 322
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49311103bb7b00c90800000000000000
+      internalID: -7205557389199600748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3070
+        width: 321
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992108f47439ee5b0800000000000000
+      internalID: -5337166573901704551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_47
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 3070
+        width: 322
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fd3d3cfa8453bf0800000000000000
+      internalID: -345289876682055795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_48
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 3073
+        width: 322
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abb468b162563880800000000000000
+      internalID: -8631621056150062167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_49
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 3071
+        width: 321
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30add18fb03c2f10800000000000000
+      internalID: 2246223913226707005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_50
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 3073
+        width: 322
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c71c42cbe3cbd60800000000000000
+      internalID: 7907264023547182118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_51
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 3073
+        width: 322
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549ebe8b494a9a900800000000000000
+      internalID: 696268576070035781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_52
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 3076
+        width: 324
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30fc393a0cabdb70800000000000000
+      internalID: 8924916246474715194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_53
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 3077
+        width: 325
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfe40e4d5bac8d90800000000000000
+      internalID: -7094106895786119241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_54
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 3073
+        width: 328
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715763d5688890850800000000000000
+      internalID: 6343751660798899479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_55
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 3070
+        width: 327
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcb6cd9b49952e30800000000000000
+      internalID: 4478153954538470582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_56
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 3070
+        width: 332
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142bb76be84f98940800000000000000
+      internalID: 5299035330362192449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2565
+        width: 334
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3b33d618b3c68d0800000000000000
+      internalID: -2851839036963441728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_58
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2564
+        width: 335
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a17452a46c14fce0800000000000000
+      internalID: -1372440767895408218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_59
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2570
+        width: 338
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94ecc3ae2e0a1710800000000000000
+      internalID: 1664658605746218142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_60
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2581
+        width: 341
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dac9bd3a2618a50800000000000000
+      internalID: 6521602191312858423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_61
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2584
+        width: 341
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf5d5ac6b661c170800000000000000
+      internalID: 8196945732056211401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_62
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2584
+        width: 343
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505619070d280d60800000000000000
+      internalID: 7856579058188308568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_63
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 2587
+        width: 348
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306e8a181b5ae11a0800000000000000
+      internalID: -6836845002498710013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_64
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 2589
+        width: 351
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507fcf59253a9e90800000000000000
+      internalID: -7018238617486135212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_65
+      rect:
+        serializedVersion: 2
+        x: 4179
+        y: 2592
+        width: 352
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3aea1ac33cba600800000000000000
+      internalID: 480692450423120825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_66
+      rect:
+        serializedVersion: 2
+        x: 4693
+        y: 2595
+        width: 355
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545752a43d212f310800000000000000
+      internalID: 1437231929775977797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_67
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 2595
+        width: 354
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216e045b5d5d2a310800000000000000
+      internalID: 1414928346793436690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_68
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 2570
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da37ad982ee24300800000000000000
+      internalID: 235011988787772115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_69
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2086
+        width: 356
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a6ab12d966ea40800000000000000
+      internalID: 5397117554578072892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_70
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2089
+        width: 357
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951219ab98cfb7990800000000000000
+      internalID: -7387033095300374183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_71
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 2089
+        width: 357
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b7b89266d66e4e0800000000000000
+      internalID: -1952753102867432640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_72
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2091
+        width: 358
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597ac763882063d80800000000000000
+      internalID: -8271420881566390379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_73
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 2092
+        width: 358
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1843a8dba623306f0800000000000000
+      internalID: -719676081421273983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_74
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 2094
+        width: 354
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08a28b1b32d94120800000000000000
+      internalID: 2398679427857950732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_75
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 2094
+        width: 358
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e81f4a65931f86c0800000000000000
+      internalID: -4139068000075573023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_76
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 2094
+        width: 358
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db74f09ed8aac40800000000000000
+      internalID: 5524383925046590750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_77
+      rect:
+        serializedVersion: 2
+        x: 4201
+        y: 2095
+        width: 354
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4464b293e43c9d00800000000000000
+      internalID: 980716970883441739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_78
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 2095
+        width: 357
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f769ecb77884b1d30800000000000000
+      internalID: 4403192807419713151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_79
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 2095
+        width: 357
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d3cba9201308030800000000000000
+      internalID: 3494847198095228282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_80
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1583
+        width: 357
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf872ed61e8bf1ff0800000000000000
+      internalID: -63128591409186564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_81
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1583
+        width: 355
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6d0df43dc146a70800000000000000
+      internalID: 8819205664201037520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_82
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1583
+        width: 356
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19231ed8dcd1b7630800000000000000
+      internalID: 3925764268869366417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_83
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1580
+        width: 354
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53525521f251fcff0800000000000000
+      internalID: -13768981943605963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_84
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 1578
+        width: 355
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c867c29417133e820800000000000000
+      internalID: 2946252943859152524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_85
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 1577
+        width: 352
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaf200a464271390800000000000000
+      internalID: -7847763811069920539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_86
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 1575
+        width: 352
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117fc850f84795bd0800000000000000
+      internalID: -2640951548853815535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_87
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1574
+        width: 354
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20b12eac68889080800000000000000
+      internalID: -9180437840035467222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_88
+      rect:
+        serializedVersion: 2
+        x: 4190
+        y: 1572
+        width: 349
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47110d434be7fced0800000000000000
+      internalID: -2391553564665179788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_89
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 1569
+        width: 350
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56b06377f8521920800000000000000
+      internalID: 2959525724951721562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_90
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 1567
+        width: 349
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746f45af13f44e9a0800000000000000
+      internalID: -6204747310537836985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_91
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1055
+        width: 349
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e73c2aac97d058d0800000000000000
+      internalID: -2859548695510370331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_92
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1052
+        width: 346
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95c753ff433ebae0800000000000000
+      internalID: -1531730404781341284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_93
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1049
+        width: 347
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb458403135f0ed0800000000000000
+      internalID: -2445644731493561404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_94
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1046
+        width: 344
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab29d0b0d28ce1e0800000000000000
+      internalID: -2167213487840220251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_95
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1044
+        width: 343
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337fcbc78c7d85670800000000000000
+      internalID: 8527803150512224051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_96
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1041
+        width: 341
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff1598b0e59b3f70800000000000000
+      internalID: 9168086258844770299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_97
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 1038
+        width: 338
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269241fa746a4820800000000000000
+      internalID: 2903243388990166560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_98
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 1035
+        width: 335
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4d6682040e71e60800000000000000
+      internalID: 7933055834796774595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_99
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 1033
+        width: 335
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c4db68e2a5c6400800000000000000
+      internalID: 318728829512010774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_100
+      rect:
+        serializedVersion: 2
+        x: 4668
+        y: 1033
+        width: 332
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7594991659d5d8030800000000000000
+      internalID: 3498555381705689431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_101
+      rect:
+        serializedVersion: 2
+        x: 5177
+        y: 1030
+        width: 330
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec8c09004512160800000000000000
+      internalID: 6998967657316273896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_102
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 516
+        width: 328
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5036e32abd9fea2d0800000000000000
+      internalID: -3265397958081879291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_103
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 516
+        width: 325
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85c0401f826db810800000000000000
+      internalID: 1782689394101110155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_104
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 516
+        width: 327
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d88048c263e86d30800000000000000
+      internalID: 4425036647297485009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_105
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 513
+        width: 324
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ef23875be736140800000000000000
+      internalID: 4711748953030458914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_106
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 513
+        width: 322
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd24a581d004480f0800000000000000
+      internalID: -1115696382693719332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_107
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 513
+        width: 322
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa56b1d4ff1a468e0800000000000000
+      internalID: -1701056641356831318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_108
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 513
+        width: 321
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08141022d09391780800000000000000
+      internalID: -8711869275603648128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_109
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 513
+        width: 321
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e1cb7ed79209360800000000000000
+      internalID: 7174279827136716447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_110
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 513
+        width: 322
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb30f58744e747f70800000000000000
+      internalID: 9184104372657652668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_111
+      rect:
+        serializedVersion: 2
+        x: 4665
+        y: 513
+        width: 322
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ef8b37e6cc75a20800000000000000
+      internalID: 3051132047326772852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_112
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 516
+        width: 321
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c52c0ba091e4a00800000000000000
+      internalID: 742558522268605545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_113
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4
+        width: 325
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14fcfc91e126ca0800000000000000
+      internalID: -6025220255258820113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_114
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 4
+        width: 325
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f244807527ffdc60800000000000000
+      internalID: 7845260816076260083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_115
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 7
+        width: 326
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f0716478330f1a0800000000000000
+      internalID: -6777860783103078542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_116
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7
+        width: 329
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153ca24fb929b2d10800000000000000
+      internalID: 2101934849612497745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_117
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 10
+        width: 329
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b6b3cddbd0de410800000000000000
+      internalID: 1507876559333845858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_118
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 12
+        width: 332
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f77c2a9f9761d5d0800000000000000
+      internalID: -3039534338314307592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_119
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 15
+        width: 335
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ca41104357998d0800000000000000
+      internalID: -2839109223863505881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_120
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 18
+        width: 338
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6185d80143a3ef0800000000000000
+      internalID: -127732393731156279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_121
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 21
+        width: 341
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18688f465de524c10800000000000000
+      internalID: 2036294252139939457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the beast shadow_122
+      rect:
+        serializedVersion: 2
+        x: 4685
+        y: 23
+        width: 341
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04430c263f6a426b0800000000000000
+      internalID: -5321945295381056448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

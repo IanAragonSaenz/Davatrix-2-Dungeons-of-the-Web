@@ -45,7 +45,7 @@ public class baseProjectile : MonoBehaviour
         
         }else{
 
-            this.transform.position = Vector2.MoveTowards(transform.position, new Vector2(davalosX + 10 ,davalosY + 10 ), tempSpeed * Time.deltaTime);
+            this.transform.position = Vector2.MoveTowards(transform.position, new Vector2(davalosX  ,davalosY  ), tempSpeed * Time.deltaTime);
 
         }
     }
