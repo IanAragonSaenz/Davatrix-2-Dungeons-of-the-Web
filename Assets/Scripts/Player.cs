@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    
     public int maxHealth = 100;
     public int currentHealth;
 
@@ -23,10 +23,14 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space)){
             TakeDamage(20);
         }
+
+       
     }
 
     void TakeDamage(int damage){
         currentHealth-=damage;
         healthBar.SetHealth(currentHealth);
     }
+
+    
 }
