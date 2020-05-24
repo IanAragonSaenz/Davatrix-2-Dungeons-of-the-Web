@@ -12,10 +12,14 @@ public class PlayerBulletScript : MonoBehaviour
 
    void OnCollisionEnter2D(Collision2D collision)
     {
+       
         if (collision.gameObject.tag == "Enemy")
         {
             // falta poner que la bala haga daño al enemigo
             Instantiate(bulletParticles, transform.position, Quaternion.identity);
+            if( collision.gameObject == GameObject.Find("The Beast")){
+                GameObject.Find("The Beast").GetComponent<TheBeast>().Damaged();
+            }
         }
         Destroy(gameObject);
     }

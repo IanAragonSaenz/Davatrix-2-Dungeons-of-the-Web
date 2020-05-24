@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7447602598930964172, guid: 1615fd9b9026f194d83bee8d10511152,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1388259841}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
 --- !u!1 &250293897
@@ -137883,11 +137888,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Forest Enemy A
       objectReference: {fileID: 0}
+    - target: {fileID: 7300911602642615096, guid: 4faceac30e616e648a8e994d912c6ce8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 7300911602642615097, guid: 4faceac30e616e648a8e994d912c6ce8,
         type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 508062538}
+    - target: {fileID: 7300911602642615488, guid: 4faceac30e616e648a8e994d912c6ce8,
+        type: 3}
+      propertyPath: data.dataString
+      value: UEsDBBQAAAgIAACQn+vQQtEJTwIAAPUEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzqVjSGmS3lpDSA/5mNBOLr4s0hprEJJHHwGS4b93JRvsuCfEe29Xbz/kDya1q5F7Y5dWigcjkP0YsXhmX0YdeY8H2Bi9ku941rxK4asogqR5AS8N4ZMY5swOvZX8p96oKM4IDFqWxu4WYoO5cd4RXIJySJQ1PkZrgj5G7EA/49sYcqTT9Dqe3ul0m41OdOSoPdqedNYqz7rxLOmC5gp2NYpoupNPs0vmrEmoqaBWE81zo5R0rRvmj3WqNofaBaqFBEICVZcsRH2FclP5mK8f/FSWDn3rysJxLi01qcnKfpmmcztw28bZG6gQ75nOvidPTdKH//jxJNGlNbv7871X8QpfSb59gSMH53ud7cPzz76D3oPawlrha4X60SytCVoQ6W2IocHhdN79vVSWV8i3Hd44HYCh7hqeDcdDJZxS8Ydcyd06Ul+/NcBKmdTuNH20NJjfZDjthmtTEBpd/HX4Bzb9JWqJO2mdJ6qtUkd7axNslLJFalmsJvjcWI0Jbk3XqEH54zOl8cMJDrjetQPmDuJzaS9vufMrGIQkuNNn2YB6NvvLsFxl9g/oqqfgldTYmY7EI/UpN1o3C9bvyTlsFWwJvBe2CVJ83ix2w7OJyCb8+gpmN+J6MhZTKPkUZyVAJtYTztLqSU11gnpujLbtoanpLrmmPTt/RUZLC3VadmFhv5TvO9NrudSlWXGLqJ+aDBfjaOkSepRiISQ1aIXeS53mzT4KpgzfoiguiYpU6eLgLRRdloLV8s34iBQsT5+Ngp3Y6R9QSwMEFAAACAgAAJCf672N/9ttAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJJFsoFhioFhsrlxoqlFirmhbopRYlqyUappWmKiQUqSYbJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJCf69BC0QlPAgAA9QQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJCf672N/9ttAAAAeAAAAAkAJAAAAAAAAAAAAAAAnAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABUAwAAAAA=
+      objectReference: {fileID: 0}
     - target: {fileID: 7300911602642615489, guid: 4faceac30e616e648a8e994d912c6ce8,
         type: 3}
       propertyPath: maxSpeed

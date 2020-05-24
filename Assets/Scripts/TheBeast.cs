@@ -6,10 +6,12 @@ public class TheBeast : MonoBehaviour
 {
 
     public GameObject baby;
-    public GameObject shadow;
 
     List<GameObject> attackAProjectiles;
     int size;
+    int hp;
+    float cooldown;
+    bool damaged = false;
 
 
 
@@ -19,6 +21,8 @@ public class TheBeast : MonoBehaviour
     {
   
         size = -1;
+        hp = 100;
+        cooldown =(float) hp / (100/15);
         attackAProjectiles = new List<GameObject>();
         StartCoroutine( AttackA(0) );
       
@@ -34,18 +38,17 @@ public class TheBeast : MonoBehaviour
     IEnumerator AttackA(int attackAControl){
         
         if( attackAControl < 100) {
-            Debug.Log("HOLAAAA");
             GameObject projectile = Instantiate(baby, transform.position,Quaternion.identity);
             float range = Random.Range(0.001f,0.4f) ;
             float speed = Random.Range(0.8f,1f) * range;
             range *= (range % 2  ==  0  ) ? -1 : 1; 
             projectile.GetComponent<TheBeastProjectile>().attackType = 'A';
-            projectile.GetComponent<TheBeastProjectile>().attackARangeIncrement = range / 80;
+            projectile.GetComponent<TheBeastProjectile>().attackARangeIncrement = range / 60;
             projectile.GetComponent<TheBeastProjectile>().attackASpeedIncrement = range * Random.Range(0.08f,0.1f);
             projectile.GetComponent<TheBeastProjectile>().attackARange = range;
             projectile.GetComponent<TheBeastProjectile>().attackASpeed = speed;
 
-            yield return new WaitForSeconds(0.125f);
+            yield return new WaitForSeconds(0.05f);
             attackAControl ++;
             attackAProjectiles.Add(projectile);
             size++;
@@ -82,18 +85,25 @@ public class TheBeast : MonoBehaviour
             AttackB( num + 5, attackAProjectiles, size);
 
         }else{
-            StartCoroutine(AttackPause(15));
+            StartCoroutine(AttackPause(cooldown));
         }
         
     }
 
 
-    IEnumerator AttackPause(int amount){
+    IEnumerator AttackPause(float amount){
         yield return new WaitForSeconds(amount);
 
         Start();
         
     }
 
-    
+
+    public void Damaged(){
+        hp -= 5;
+        if( hp <= 100){
+            Destroy(this.gameObject);
+        }
+        
+    }
 }

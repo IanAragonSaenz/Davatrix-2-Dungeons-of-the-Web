@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2417932717796775138}
   - component: {fileID: 2417932717796775137}
   - component: {fileID: 2417932717796775068}
+  - component: {fileID: -6769962479470511818}
   m_Layer: 0
   m_Name: The Beast
   m_TagString: Untagged
@@ -117,3 +118,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baby: {fileID: 7780975719780731510, guid: cdc902144c136464882199355dee7ce8, type: 3}
   shadow: {fileID: 7700905135489452064, guid: 8ce5a6e664f38f54fb05daec4dc5b8c9, type: 3}
+--- !u!61 &-6769962479470511818
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2417932717796775136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4603977, y: 4.63}
+    newSize: {x: 3.4603977, y: 4.63}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 3}
+  m_EdgeRadius: 0

@@ -231,3 +231,4 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8112214529123448192, guid: b9fe525df679a7b44a0205b0d3557e98,
     type: 3}
   bulletForce: 20
+  cooldownTime: 0.3

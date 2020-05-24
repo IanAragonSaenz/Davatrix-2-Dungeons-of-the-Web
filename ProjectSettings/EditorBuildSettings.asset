@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/first dungeon/first dungeon.unity
     guid: 5c7cfed0baa3b5a40a370505e168f550
+  - enabled: 1
+    path: Assets/Scenes/firstBoss/First Boss Loading.unity
+    guid: 9186054a7d3a8064ea9009fa142c6fe9
+  - enabled: 1
+    path: Assets/Scenes/firstBoss/first Boss.unity
+    guid: 70e366972fd1d6d41b0faa21e8d84889
+  - enabled: 1
+    path: Assets/Scenes/second boss/second boss loading.unity
+    guid: cc08aa848901f6f4eb94b3662fa1e3f8
+  - enabled: 1
+    path: Assets/Scenes/second boss/second boss room.unity
+    guid: ae4faa7754ed38a41a162f528112c15f
   m_configObjects: {}
