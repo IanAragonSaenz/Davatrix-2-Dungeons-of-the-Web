@@ -20,6 +20,10 @@ public class PlayerBulletScript : MonoBehaviour
             if( collision.gameObject == GameObject.Find("The Beast")){
                 GameObject.Find("The Beast").GetComponent<TheBeast>().Damaged();
             }
+
+            else if (collision.gameObject == GameObject.Find("Pyramid Head")){
+                GameObject.Find("Pyramid Head").GetComponent<PyramidHead>().Damaged();
+            }
         }
         Destroy(gameObject);
     }
