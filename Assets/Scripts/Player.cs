@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     
     public int maxHealth = 100;
     public int currentHealth;
+    public int currentMoney = 0;
 
     public HealthBar healthBar;
 
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
     }
 
     // Update is called once per frame
@@ -30,6 +32,10 @@ public class Player : MonoBehaviour
     void TakeDamage(int damage){
         currentHealth-=damage;
         healthBar.SetHealth(currentHealth);
+    }
+
+    public void addMoney(int money){
+    	currentMoney+=money;
     }
 
     

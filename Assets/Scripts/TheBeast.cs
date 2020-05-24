@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,8 @@ public class TheBeast : MonoBehaviour
 {
 
     public GameObject baby;
-
+    public GameObject player;
+    Player playerScript;
     List<GameObject> attackAProjectiles;
     int size;
     int hp;
@@ -19,7 +20,7 @@ public class TheBeast : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-  
+  		playerScript = player.GetComponent<Player>();
         size = -1;
         hp = 100;
         cooldown =(float) hp / (100/15);
@@ -102,6 +103,7 @@ public class TheBeast : MonoBehaviour
     public void Damaged(){
         hp -= 5;
         if( hp <= 100){
+        	playerScript.addMoney(100);
             Destroy(this.gameObject);
         }
         
