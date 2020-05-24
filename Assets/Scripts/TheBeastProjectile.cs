@@ -83,27 +83,26 @@ public class TheBeastProjectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other){
         if( other.tag == "Boss") return;
-        if( other.tag != "Boss Projectile"){
+        if( other.tag == "Enemy") return;
+        if( other.tag == "Boss Projectile") return;
+        Debug.Log("HIII");
+        if( other.tag == "Wall"){
+            GenerateProjectile(Random.Range(4,6));
+            Destroy(this.gameObject);
+        }
+        if( attackType == 'B'){
+            if( attackBExplosion) {
 
-            if( attackType == 'B'){
-                if( attackBExplosion) {
+                GenerateProjectile(Random.Range(4,6));
 
-                    GenerateProjectile(Random.Range(4,6));
-
-                    Destroy(this.gameObject);
-
-                }else{
-                    Destroy(this.gameObject);
-                }
-            }else if ( attackType == 'C'){
-
-                GenerateProjectile(Random.Range(10,20));
                 Destroy(this.gameObject);
-
 
             }else{
-                Destroy(this.gameObject);
+                 Destroy(this.gameObject);
             }
         }
+
+        Destroy(this.gameObject);
+         
     }
 }

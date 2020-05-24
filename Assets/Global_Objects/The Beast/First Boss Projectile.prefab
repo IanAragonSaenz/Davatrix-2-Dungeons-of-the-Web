@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1701066812322577936}
   - component: {fileID: -240394514597748495}
   - component: {fileID: 8916683703583409229}
-  - component: {fileID: -3161769374339631432}
-  - component: {fileID: 940571931823303912}
+  - component: {fileID: -404260148814437174}
+  - component: {fileID: -6999932386391179467}
   m_Layer: 0
   m_Name: First Boss Projectile
   m_TagString: Boss Projectile
@@ -100,14 +100,14 @@ MonoBehaviour:
   daddy: {fileID: 2417932717796775136, guid: 7ddf1db2145eea24797b84942be9e76a, type: 3}
   baby: {fileID: 7780975719780731510}
   direction: {x: 5, y: 10}
-  attackType: 0
+  attackType: 65
   attackARange: 0
   attackASpeed: 0
   attackASpeedIncrement: 0
   attackARangeIncrement: 0
   attackBExplosion: 1
---- !u!61 &-3161769374339631432
-BoxCollider2D:
+--- !u!58 &-404260148814437174
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -120,19 +120,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.21, y: 0.21}
-    newSize: {x: 0.21, y: 0.21}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.21, y: 0.21}
-  m_EdgeRadius: 0
---- !u!50 &940571931823303912
+  m_Radius: 0.105
+--- !u!50 &-6999932386391179467
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -151,5 +141,5 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0

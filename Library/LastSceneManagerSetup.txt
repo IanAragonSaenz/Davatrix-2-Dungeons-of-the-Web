@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/prueba/prueba.unity
+- path: Assets/Scenes/firstBoss/first Boss.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
