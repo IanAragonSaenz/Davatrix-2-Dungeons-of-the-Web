@@ -16,11 +16,15 @@ public class PyramidHead : MonoBehaviour
     public GameObject baby;
     Directions[] directions;
     string[] orientations;
+    int hp ;
+    float cooldown;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        hp = 100;
+        cooldown =  hp / (100 / 0.45f);
         directions = new Directions[10]{
             new Directions(0,0),
             new Directions(-11.8f,5),
@@ -60,8 +64,15 @@ public class PyramidHead : MonoBehaviour
 
     }
 
+    public void Damaged(){
+        hp -= 2;
+        if( hp > 30){
+            cooldown = hp / (100 / 0.45f);
+        }
+    }
+
     IEnumerator Wait(){
-        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(cooldown);
         Attack();
     }
 
