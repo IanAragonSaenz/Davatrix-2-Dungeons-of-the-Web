@@ -212,6 +212,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 7447602598930964172, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
 --- !u!1 &150020705
 GameObject:
@@ -553,6 +554,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 134452081}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &963001941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 175670394058914922, guid: 1ff06d749fd970f48a9ad94270b49b76,
+    type: 3}
+  m_PrefabInstance: {fileID: 175670393071139139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &963001945
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963001941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!114 &1325706449 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6155079401197526579, guid: 3b80475521f53984d95814a393e2c160,
@@ -683,6 +716,29 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1968892290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7217991718985155014, guid: 1615fd9b9026f194d83bee8d10511152,
+    type: 3}
+  m_PrefabInstance: {fileID: 134452081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1968892292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968892290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e095f0f49516944a7d67fafac1a1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1484554289}
+  bulletPrefab: {fileID: 8112214529123448192, guid: b9fe525df679a7b44a0205b0d3557e98,
+    type: 3}
+  bulletForce: 20
+  cooldownTime: 0.3
 --- !u!1001 &2009448319
 PrefabInstance:
   m_ObjectHideFlags: 0

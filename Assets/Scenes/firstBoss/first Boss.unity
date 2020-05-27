@@ -3920,8 +3920,38 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1985354020}
-    m_RemovedComponents: []
+    - target: {fileID: 7447602598930964172, guid: 1615fd9b9026f194d83bee8d10511152,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8112214529123448192, guid: b9fe525df679a7b44a0205b0d3557e98,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 7447602598930964172, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
+--- !u!1 &1061559642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7217991718985155014, guid: 1615fd9b9026f194d83bee8d10511152,
+    type: 3}
+  m_PrefabInstance: {fileID: 1061559641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1061559643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061559642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e095f0f49516944a7d67fafac1a1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1985354020}
+  bulletPrefab: {fileID: 8112214529123448192, guid: b9fe525df679a7b44a0205b0d3557e98,
+    type: 3}
+  bulletForce: 20
+  cooldownTime: 0.3
 --- !u!4 &1133571346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1000822465620646085, guid: 1615fd9b9026f194d83bee8d10511152,
