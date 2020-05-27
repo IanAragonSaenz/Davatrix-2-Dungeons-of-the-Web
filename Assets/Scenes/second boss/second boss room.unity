@@ -364,6 +364,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &302930111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7217991718985155014, guid: 1615fd9b9026f194d83bee8d10511152,
+    type: 3}
+  m_PrefabInstance: {fileID: 1965464567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &302930113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302930111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e095f0f49516944a7d67fafac1a1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1466171734}
+  bulletPrefab: {fileID: 8112214529123448192, guid: b9fe525df679a7b44a0205b0d3557e98,
+    type: 3}
+  bulletForce: 20
+  cooldownTime: 0.3
 --- !u!1 &338315652
 GameObject:
   m_ObjectHideFlags: 0
@@ -6313,7 +6336,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 919a34b28adc4c642b1027cc5e76a15d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.811
+  m_Volume: 0.428
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6483,5 +6506,12 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1466171734}
-    m_RemovedComponents: []
+    - target: {fileID: 7447602598930964172, guid: 1615fd9b9026f194d83bee8d10511152,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8112214529123448192, guid: b9fe525df679a7b44a0205b0d3557e98,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 7447602598930964172, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1615fd9b9026f194d83bee8d10511152, type: 3}
