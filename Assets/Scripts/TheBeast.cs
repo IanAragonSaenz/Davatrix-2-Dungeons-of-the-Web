@@ -27,12 +27,6 @@ public class TheBeast : MonoBehaviour
         StartCoroutine( AttackA(0) );
       
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
 
     IEnumerator AttackA(int attackAControl){
