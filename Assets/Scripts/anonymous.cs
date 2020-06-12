@@ -24,6 +24,8 @@ public class anonymous : MonoBehaviour
         StartCoroutine(spawnAttack());
         StartCoroutine(spawnAttack());
         StartCoroutine( movingAttack() ); 
+        StartCoroutine( movingAttack() ); 
+        StartCoroutine( movingAttack() ); 
   
      
     }
@@ -97,8 +99,20 @@ public class anonymous : MonoBehaviour
             break;
         }
     }
+
+    void Update(){
+
+        if( HP == 0){
+            GameObject[] temp = GameObject.FindGameObjectsWithTag("Boss Projectile");
+            foreach(GameObject x in temp){
+                Destroy(x.gameObject);
+            }
+            Destroy(this.gameObject);
+            HP = -1;
+        }
+    }
+
     IEnumerator movingAttack(){
-        float attackCooldown = cooldown = 3 * (HP / 100);
         
         float x = 0 , y = 0;
         selectDirection(directions[Random.Range( 0, directions.Length) ] , ref x , ref y);
@@ -111,7 +125,7 @@ public class anonymous : MonoBehaviour
             projectiles[i] = Instantiate(baby,temp,Quaternion.identity);
             projectiles[i].GetComponent<anonymousProjectiles>().moves = false;
             Destroy(projectiles[i].gameObject, cooldown);
-            yield return new WaitForSeconds( attackCooldown - ( attackCooldown * .94f) );
+            yield return new WaitForSeconds( 0.2f );
 
 
             if( x > 0 )
@@ -129,7 +143,7 @@ public class anonymous : MonoBehaviour
 
             if( i == 17 ){
 
-                yield return new WaitForSeconds(attackCooldown);
+                yield return new WaitForSeconds(1);
                 float tempX = x , tempY = y;
                 for(int j = 0; j < directions.Length ; j++){
 
@@ -145,24 +159,25 @@ public class anonymous : MonoBehaviour
 
         }
 
-        yield return new WaitForSeconds(attackCooldown);
+        yield return new WaitForSeconds(1);
+        StopCoroutine(spawnAttack());
         StopCoroutine(movingAttack());
         StartCoroutine(movingAttack());
 
     }
 
     IEnumerator spawnAttack(){
-        float attackCooldown = cooldown = 3 * (HP / 100);
-        for(int i = 0;i <directions.Length; i++){
+        for(int i = 0;i <40; i++){
             selectDirection(directions[Random.Range(0,directions.Length)],ref x, ref y);
             Vector3 direction = new Vector3(x,y,0);
             GameObject projectile = Instantiate(baby,transform.position, Quaternion.identity);
             projectile.GetComponent<anonymousProjectiles>().direction = direction;
             projectile.GetComponent<anonymousProjectiles>().moves = true;
-            yield return new WaitForSeconds( Random.Range( 0.2f, 1));
+            yield return new WaitForSeconds( Random.Range( 0.2f, 0.4f));
         }
-        yield return new WaitForSeconds(attackCooldown);
+        yield return new WaitForSeconds(1);
         StopCoroutine(spawnAttack());
+        StopCoroutine(movingAttack());
         StartCoroutine(spawnAttack());
     }
 
