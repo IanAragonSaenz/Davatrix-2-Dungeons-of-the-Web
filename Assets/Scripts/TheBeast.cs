@@ -6,7 +6,7 @@ public class TheBeast : MonoBehaviour
 {
 
     public GameObject baby;
-
+    public HealthBar healthBar;
     List<GameObject> attackAProjectiles;
     int size;
     int hp;
@@ -95,9 +95,16 @@ public class TheBeast : MonoBehaviour
 
     public void Damaged(){
         hp -= 5;
+        healthBar.SetHealth(hp);
         if( hp <= 100){
             Destroy(this.gameObject);
         }
         
     }
+
+     void OnTriggerEnter2D(Collider2D other){
+    	if(other.gameObject.tag=="Normal Projectile"){
+ 			Damaged();
+    	}
+ 	}
 }
