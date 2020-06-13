@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     void Update()
     {    
         if(currentHealth <= 0){
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene(10);
         }
     }
 
