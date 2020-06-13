@@ -88,8 +88,21 @@ public class basicEnemyAttack : MonoBehaviour
     {
         
         StartCoroutine( Attack() );
+
+        HP = 30;
     }
 
+    public void Damaged()
+    {
+        HP -= 3;
+
+        if (HP <= 0)
+        {
+            GameObject.Find("Player").GetComponent<Player>().money += 8;
+            Destroy(this.gameObject);
+        }
+
+    }
 
     IEnumerator Attack(){
 
