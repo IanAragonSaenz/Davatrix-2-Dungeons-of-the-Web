@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/second boss/second boss room.unity
     guid: ae4faa7754ed38a41a162f528112c15f
+  - enabled: 1
+    path: Assets/Scenes/lvlGenii/lvlgenii.unity
+    guid: 932e49a77ace262409a33cf4277354f8
+  - enabled: 1
+    path: Assets/Scenes/Game Over/Game Over.unity
+    guid: e337befbb7bcb694d923bb352d4540ed
+  - enabled: 1
+    path: Assets/Scenes/lvlGen/lvlGenTest1.unity
+    guid: d56202e444a87784dafd66c36dbec148
   m_configObjects: {}

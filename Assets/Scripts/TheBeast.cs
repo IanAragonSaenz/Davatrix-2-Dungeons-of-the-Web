@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class TheBeast : MonoBehaviour
 {
@@ -34,6 +36,8 @@ public class TheBeast : MonoBehaviour
         {
             GameObject.Find("Player").GetComponent<Player>().money += 10;
             Destroy(this.gameObject);
+            
+            SceneManager.LoadScene(12);
         }
     }
     
