@@ -102,11 +102,12 @@ public class anonymous : MonoBehaviour
 
     void Update(){
 
-        if( HP == 0){
+        if( HP <= 0){
             GameObject[] temp = GameObject.FindGameObjectsWithTag("Boss Projectile");
             foreach(GameObject x in temp){
                 Destroy(x.gameObject);
             }
+            GameObject.Find("Player").GetComponent<Player>().money += 10;
             Destroy(this.gameObject);
             HP = -1;
         }

@@ -9,7 +9,7 @@ public class TheBeast : MonoBehaviour
     public HealthBar healthBar;
     List<GameObject> attackAProjectiles;
     int size;
-    int hp;
+    public int hp;
     float cooldown;
     bool damaged = false;
 
@@ -26,6 +26,15 @@ public class TheBeast : MonoBehaviour
         attackAProjectiles = new List<GameObject>();
         StartCoroutine( AttackA(0) );
       
+    }
+
+    void Update()
+    {
+        if (hp <= 0)
+        {
+            GameObject.Find("Player").GetComponent<Player>().money += 10;
+            Destroy(this.gameObject);
+        }
     }
     
 
