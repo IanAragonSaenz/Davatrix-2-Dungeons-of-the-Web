@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     
     public int maxHealth = 100;
     public int currentHealth;
-
+    public int money;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        money = 10;
     }
 
     // Update is called once per frame
