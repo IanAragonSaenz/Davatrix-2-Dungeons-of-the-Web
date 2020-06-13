@@ -16,17 +16,25 @@ public class RoomTemplates : MonoBehaviour
 
 
     //Aqui se puede modificar para hacer el cambio de nivel o la aparición del boss
-    /*
-     public float waitTime;
+    
+     public float waitTime=6f;
      private bool spawnedLastRoomThing;
      public GameObject thing;
      void Update(){
         if(waitTime<=0&&!spawnedLastRoomThing){
             if(!spawnedLastRoomThing){
-                for(int i=0;i<rooms.Count-1;i++){
+                   /* for (int i=0; i < rooms.Count - 1; i++)
+                {
+                    Debug.Log("Room: "+i);
                     Instantiate(thing, rooms[i].transform.position, Quaternion.identity);
-                    spawnedLastRoomThing=true;
-                }
+                    spawnedLastRoomThing = true;
+
+                }*/
+
+                Instantiate(thing, rooms[rooms.Count-1].transform.position, Quaternion.identity);
+                spawnedLastRoomThing = true;
+
+
             }
         }else{
             
@@ -37,5 +45,5 @@ public class RoomTemplates : MonoBehaviour
     }
      
      
-     */
+     
 }

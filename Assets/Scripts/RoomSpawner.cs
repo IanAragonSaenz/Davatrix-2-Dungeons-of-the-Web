@@ -66,11 +66,11 @@ public class RoomSpawner : MonoBehaviour
         
             if (other.CompareTag("Spawnpoint"))
             {
-            if (!other.GetComponent<RoomSpawner>().spawned && !spawned) {
-                //spawns a closed room
-                Instantiate(templates.closedRoom,transform.position,Quaternion.identity);
-                Destroy(gameObject);
-            }
+                if (!other.GetComponent<RoomSpawner>().spawned && !spawned) {
+                    //spawns a closed room
+                    Instantiate(templates.closedRoom,transform.position,Quaternion.identity);
+                    Destroy(gameObject);
+                }
                 spawned = true;
             }
         
