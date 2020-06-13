@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu/main_menu.unity
+    guid: 9f164e5bd735fa64ca5210d8e4ae0dcc
+  - enabled: 1
     path: Assets/Scenes/Classroom/Classroom.unity
     guid: 37226e5ca8c6176479dd2233edf67c21
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/prueba/prueba.unity
     guid: 6431c33e2ef78a544bf956367b0e09e3
-  - enabled: 1
-    path: Assets/Scenes/Main Menu/main_menu.unity
-    guid: 9f164e5bd735fa64ca5210d8e4ae0dcc
   - enabled: 1
     path: Assets/Scenes/Internet First Level Village/FirstVillage.unity
     guid: 6a6a733c034787b4ba02196066a9a397
@@ -35,4 +35,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/second boss/second boss room.unity
     guid: ae4faa7754ed38a41a162f528112c15f
+  - enabled: 1
+    path: Assets/Scenes/lvlGenii/lvlgenii.unity
+    guid: 932e49a77ace262409a33cf4277354f8
+  - enabled: 1
+    path: Assets/Scenes/Game Over/Game Over.unity
+    guid: e337befbb7bcb694d923bb352d4540ed
+  - enabled: 1
+    path: Assets/Scenes/lvlGen/lvlGenTest1.unity
+    guid: d56202e444a87784dafd66c36dbec148
+  - enabled: 1
+    path: Assets/Scenes/Final Boss/Monologue/Final Boss Monologue.unity
+    guid: f81637d493ed3724d8a91d25f5c16251
+  - enabled: 1
+    path: Assets/Scenes/Lab/internetTunel.unity
+    guid: bd62dc78c73d3a24ba3379226f278d2f
+  - enabled: 1
+    path: Assets/Scenes/Final Boss/Finall Boss Battle.unity
+    guid: e18e790e45dea934b9cb0608e4df3958
+  - enabled: 1
+    path: Assets/Scenes/Final Scene/Final Scene.unity
+    guid: 10e156be66a660a418ac3d000c7c4c14
   m_configObjects: {}

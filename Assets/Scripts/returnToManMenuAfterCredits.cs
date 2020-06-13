@@ -15,7 +15,7 @@ public class returnToManMenuAfterCredits : MonoBehaviour
     {
         if (! GetComponent<AudioSource>().isPlaying ){
 
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(0);
 
         }
     }

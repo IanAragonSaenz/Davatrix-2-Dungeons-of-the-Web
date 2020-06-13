@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e36f31d1fe3b4d42bfff34dc67b063a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomTransition: 0
+  roomTransition: 13
 --- !u!61 &2921882062050145609
 BoxCollider2D:
   m_ObjectHideFlags: 0

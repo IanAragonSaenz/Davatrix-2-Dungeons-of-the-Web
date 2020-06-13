@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PyramidHead : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class PyramidHead : MonoBehaviour
     };
 
     public GameObject baby;
+    public HealthBar healthBar;
     Directions[] directions;
     string[] orientations;
     public int hp ;
@@ -66,11 +68,12 @@ public class PyramidHead : MonoBehaviour
 
     public void Damaged(){
         hp -= 2;
-
+        healthBar.SetHealth(hp);
         if (hp <= 0)
         {
             GameObject.Find("Player").GetComponent<Player>().money += 10;
             Destroy(this.gameObject);
+            SceneManager.LoadScene(10);
         }
 
         if( hp > 30){

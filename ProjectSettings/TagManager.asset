@@ -22,10 +22,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Projectile
+  - PlayerFloor
+  - Enemigo
+  - Jugador
   - 
   - 
   - 
