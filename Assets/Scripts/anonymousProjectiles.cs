@@ -21,7 +21,9 @@ public class anonymousProjectiles : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-
+        
+        if( other.tag == "boss projectile")
+            return;
 
         if( other.tag == "bullet wall"){
 
@@ -29,7 +31,7 @@ public class anonymousProjectiles : MonoBehaviour
 
         }
 
-        if ( other.tag == "Player"){
+        if ( other.gameObject.tag == "Player"){
 
             Destroy(this.gameObject);
 
@@ -39,6 +41,7 @@ public class anonymousProjectiles : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(this.gameObject);
         }
+
     }
 
 

@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: fd40fddac1507d74db29124b04d31f02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 292489042760182446
+    second: Tunel Binario_0
+  - first:
+      213: 4171751067333673100
+    second: Tunel Binario_1
+  - first:
+      213: -1287910924692083606
+    second: Tunel Binario_2
+  - first:
+      213: 7641911493263625766
+    second: Tunel Binario_3
+  - first:
+      213: -9143324905290567271
+    second: Tunel Binario_4
+  - first:
+      213: 1598855102097308276
+    second: Tunel Binario_5
+  - first:
+      213: 1032382098570782615
+    second: Tunel Binario_6
+  - first:
+      213: 8120416004737524761
+    second: Tunel Binario_7
+  - first:
+      213: 4958165342863427871
+    second: Tunel Binario_8
+  - first:
+      213: -2223539508316359633
+    second: Tunel Binario_9
+  - first:
+      213: 8033623330501569759
+    second: Tunel Binario_10
+  - first:
+      213: 4926870725484700468
+    second: Tunel Binario_11
+  - first:
+      213: -3611673708660914708
+    second: Tunel Binario_12
+  - first:
+      213: 6939897873264183899
+    second: Tunel Binario_13
+  - first:
+      213: 6611132236997278647
+    second: Tunel Binario_14
+  - first:
+      213: -4688738453406960277
+    second: Tunel Binario_15
+  - first:
+      213: 7089667731932285913
+    second: Tunel Binario_16
+  - first:
+      213: -6920488607736423188
+    second: Tunel Binario_17
+  - first:
+      213: -5832599976951149532
+    second: Tunel Binario_18
+  - first:
+      213: 8914837342548311787
+    second: Tunel Binario_19
+  - first:
+      213: 7104543623806095920
+    second: Tunel Binario_20
+  - first:
+      213: 6283227014003505102
+    second: Tunel Binario_21
+  - first:
+      213: 4359523646538769275
+    second: Tunel Binario_22
+  - first:
+      213: -4218489552150128671
+    second: Tunel Binario_23
+  - first:
+      213: 8029189889829838979
+    second: Tunel Binario_24
+  - first:
+      213: 1726740447215959820
+    second: Tunel Binario_25
+  - first:
+      213: -8839672004175186106
+    second: Tunel Binario_26
+  - first:
+      213: -218707460926458094
+    second: Tunel Binario_27
+  - first:
+      213: 5660458322260412019
+    second: Tunel Binario_28
+  - first:
+      213: 3606738078407825383
+    second: Tunel Binario_29
+  - first:
+      213: -6689889620583060185
+    second: Tunel Binario_30
+  - first:
+      213: 638436096214459007
+    second: Tunel Binario_31
+  - first:
+      213: 2740239058426712668
+    second: Tunel Binario_32
+  - first:
+      213: -8066643565272661697
+    second: Tunel Binario_33
+  - first:
+      213: 7825729395076552277
+    second: Tunel Binario_34
+  - first:
+      213: 4589735723876581554
+    second: Tunel Binario_35
+  - first:
+      213: -7518388989928341368
+    second: Tunel Binario_36
+  - first:
+      213: 6578359602945534311
+    second: Tunel Binario_37
+  - first:
+      213: 4359862844352634373
+    second: Tunel Binario_38
+  - first:
+      213: 1492899384066539431
+    second: Tunel Binario_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tunel Binario_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3248
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa2a661c312f0400800000000000000
+      internalID: 292489042760182446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_1
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 3248
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80c7cb2e7905e930800000000000000
+      internalID: 4171751067333673100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_2
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 3248
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c226f66db602ee0800000000000000
+      internalID: -1287910924692083606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_3
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 3248
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e04f8b3068d0a60800000000000000
+      internalID: 7641911493263625766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_4
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 3248
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9917c2a21726c1180800000000000000
+      internalID: -9143324905290567271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2784
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ab4d78e36403610800000000000000
+      internalID: 1598855102097308276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2784
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797a8c18c02c35e00800000000000000
+      internalID: 1032382098570782615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_7
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 2784
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914e6ce155381b070800000000000000
+      internalID: 8120416004737524761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_8
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 2784
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19070f1c11fec440800000000000000
+      internalID: 4958165342863427871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_9
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 2784
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24b1c619966421e0800000000000000
+      internalID: -2223539508316359633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2320
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc26d9ead92d7f60800000000000000
+      internalID: 8033623330501569759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_11
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2320
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43369c632d2cf5440800000000000000
+      internalID: 4926870725484700468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_12
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 2320
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce506aeb5e1c0edc0800000000000000
+      internalID: -3611673708660914708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_13
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 2320
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a8669b8587f4060800000000000000
+      internalID: 6939897873264183899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_14
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 2320
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb3b550eb57fbb50800000000000000
+      internalID: 6611132236997278647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1856
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65b6f7f7314eeeb0800000000000000
+      internalID: -4688738453406960277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_16
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1856
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db8f515d3f836260800000000000000
+      internalID: 7089667731932285913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_17
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1856
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec9bbf074c75ff90800000000000000
+      internalID: -6920488607736423188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_18
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1856
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c00e039317e0fa0800000000000000
+      internalID: -5832599976951149532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_19
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 1856
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beebaf8845dd7bb70800000000000000
+      internalID: 8914837342548311787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1392
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0329a3cc8c8689260800000000000000
+      internalID: 7104543623806095920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_21
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1392
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec731d4eda1823750800000000000000
+      internalID: 6283227014003505102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_22
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1392
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73ebd5a8a3208c30800000000000000
+      internalID: 4359523646538769275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_23
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1392
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e715635a1ae475c0800000000000000
+      internalID: -4218489552150128671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_24
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 1392
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38027711aa96d6f60800000000000000
+      internalID: 8029189889829838979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f3b9fb94d96f710800000000000000
+      internalID: 1726740447215959820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_26
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 928
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6473c24952d235580800000000000000
+      internalID: -8839672004175186106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_27
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 928
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21730c919bef6fcf0800000000000000
+      internalID: -218707460926458094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_28
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 928
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3764c3c8adcfd8e40800000000000000
+      internalID: 5660458322260412019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_29
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 928
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e79f594c25bd0230800000000000000
+      internalID: 3606738078407825383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72de29aa5dcb823a0800000000000000
+      internalID: -6689889620583060185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_31
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 464
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7266a63f3e2cd800800000000000000
+      internalID: 638436096214459007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_32
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 464
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52dc2db7e8470620800000000000000
+      internalID: 2740239058426712668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_33
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 464
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f318b329a668d0090800000000000000
+      internalID: -8066643565272661697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_34
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 464
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556dedd1c639a9c60800000000000000
+      internalID: 7825729395076552277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0859ac25402bf30800000000000000
+      internalID: 4589735723876581554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_36
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8800d1c3c0159a790800000000000000
+      internalID: -7518388989928341368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_37
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769295a84370b4b50800000000000000
+      internalID: 6578359602945534311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_38
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 0
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e101b4828518c30800000000000000
+      internalID: 4359862844352634373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tunel Binario_39
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 0
+        width: 774
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af7fa08418d7b410800000000000000
+      internalID: 1492899384066539431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

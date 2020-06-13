@@ -126,7 +126,7 @@ public class anonymous : MonoBehaviour
             projectiles[i] = Instantiate(baby,temp,Quaternion.identity);
             projectiles[i].GetComponent<anonymousProjectiles>().moves = false;
             Destroy(projectiles[i].gameObject, cooldown);
-            yield return new WaitForSeconds( 0.2f );
+            yield return new WaitForSeconds( 0.1f );
 
 
             if( x > 0 )
@@ -160,7 +160,7 @@ public class anonymous : MonoBehaviour
 
         }
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         StopCoroutine(spawnAttack());
         StopCoroutine(movingAttack());
         StartCoroutine(movingAttack());
@@ -174,9 +174,9 @@ public class anonymous : MonoBehaviour
             GameObject projectile = Instantiate(baby,transform.position, Quaternion.identity);
             projectile.GetComponent<anonymousProjectiles>().direction = direction;
             projectile.GetComponent<anonymousProjectiles>().moves = true;
-            yield return new WaitForSeconds( Random.Range( 0.2f, 0.4f));
+            yield return new WaitForSeconds( Random.Range( 0.1f, 0.2f));
         }
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         StopCoroutine(spawnAttack());
         StopCoroutine(movingAttack());
         StartCoroutine(spawnAttack());
