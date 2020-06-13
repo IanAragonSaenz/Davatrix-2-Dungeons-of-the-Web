@@ -16,7 +16,7 @@ public class PyramidHead : MonoBehaviour
     public GameObject baby;
     Directions[] directions;
     string[] orientations;
-    int hp ;
+    public int hp ;
     float cooldown;
 
 
@@ -66,6 +66,13 @@ public class PyramidHead : MonoBehaviour
 
     public void Damaged(){
         hp -= 2;
+
+        if (hp <= 0)
+        {
+            GameObject.Find("Player").GetComponent<Player>().money += 10;
+            Destroy(this.gameObject);
+        }
+
         if( hp > 30){
             cooldown = hp / (100 / 0.45f);
         }

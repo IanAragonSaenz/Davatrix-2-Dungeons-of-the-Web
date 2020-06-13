@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     
     public int maxHealth = 100;
     public int currentHealth;
-
+    public int money;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -15,22 +15,28 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        money = 100000;
     }
 
     // Update is called once per frame
     void Update()
     {    
-        if(Input.GetKeyDown(KeyCode.Space)){
-            TakeDamage(20);
+        if(currentHealth <= 0){
+            
         }
-
-       
     }
 
-    void TakeDamage(int damage){
+    public void TakeDamage(int damage){
         currentHealth-=damage;
+        healthBar.SetMaxHealth(maxHealth);
         healthBar.SetHealth(currentHealth);
     }
+
+    void OnTriggerEnter2D(Collider2D other){
+    	if(other.gameObject.tag=="Boss Projectile"){
+ 			TakeDamage(10);
+    	}
+ 	}
 
     
 }

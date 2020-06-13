@@ -6,10 +6,10 @@ public class TheBeast : MonoBehaviour
 {
 
     public GameObject baby;
-
+    public HealthBar healthBar;
     List<GameObject> attackAProjectiles;
     int size;
-    int hp;
+    public int hp;
     float cooldown;
     bool damaged = false;
 
@@ -26,6 +26,15 @@ public class TheBeast : MonoBehaviour
         attackAProjectiles = new List<GameObject>();
         StartCoroutine( AttackA(0) );
       
+    }
+
+    void Update()
+    {
+        if (hp <= 0)
+        {
+            GameObject.Find("Player").GetComponent<Player>().money += 10;
+            Destroy(this.gameObject);
+        }
     }
     
 
@@ -94,10 +103,17 @@ public class TheBeast : MonoBehaviour
 
 
     public void Damaged(){
-        hp -= 5;
+        hp -= 5	;
+        healthBar.SetHealth(hp);
         if( hp <= 100){
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
         
     }
+
+     void OnTriggerEnter2D(Collider2D other){
+    	if(other.gameObject.tag=="Player Projectile"){
+ 			Damaged();
+    	}
+ 	}
 }
