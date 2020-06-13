@@ -15,19 +15,20 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-        money = 10;
+        money = 100000;
     }
 
     // Update is called once per frame
     void Update()
     {    
-        if(Input.GetKeyDown(KeyCode.Space)){
-            TakeDamage(20);
+        if(currentHealth <= 0){
+            
         }
     }
 
     public void TakeDamage(int damage){
         currentHealth-=damage;
+        healthBar.SetMaxHealth(maxHealth);
         healthBar.SetHealth(currentHealth);
     }
 
