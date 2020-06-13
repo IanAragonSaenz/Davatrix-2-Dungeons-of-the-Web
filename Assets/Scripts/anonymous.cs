@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class anonymous : MonoBehaviour
 {
     public GameObject baby;
+    public HealthBar healthBar;
     float x ;
     float y;
     public int HP;
@@ -109,7 +111,7 @@ public class anonymous : MonoBehaviour
             }
             GameObject.Find("Player").GetComponent<Player>().money += 10;
             Destroy(this.gameObject);
-            HP = -1;
+            SceneManager.LoadScene(16);
         }
     }
 
@@ -184,5 +186,6 @@ public class anonymous : MonoBehaviour
 
     public void Damaged(){
         HP --;
+        healthBar.SetHealth(HP);
     }
 }

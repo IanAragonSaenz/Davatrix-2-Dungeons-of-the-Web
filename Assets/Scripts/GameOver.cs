@@ -20,6 +20,6 @@ public class GameOver : MonoBehaviour
     }
 
     public void retry(){
-    	SceneManager.LoadScene(6);
+    	SceneManager.LoadScene(4);
     }
 }
