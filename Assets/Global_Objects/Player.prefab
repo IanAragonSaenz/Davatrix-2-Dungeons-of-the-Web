@@ -66,6 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  money: 0
   healthBar: {fileID: 0}
 --- !u!212 &-2145588779036898288
 SpriteRenderer:
@@ -193,7 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4130570120662610012}
-  - component: {fileID: 7447602598930964172}
+  - component: {fileID: 3951604599521920446}
   m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
@@ -215,7 +216,7 @@ Transform:
   m_Father: {fileID: 1000822465620646085}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7447602598930964172
+--- !u!114 &3951604599521920446
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,7 +225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7217991718985155014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 603e392479ef31d438d14717fbe18f33, type: 3}
+  m_Script: {fileID: 11500000, guid: c3e095f0f49516944a7d67fafac1a1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
