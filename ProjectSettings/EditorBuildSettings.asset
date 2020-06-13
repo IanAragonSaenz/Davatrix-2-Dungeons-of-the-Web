@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu/main_menu.unity
+    guid: 9f164e5bd735fa64ca5210d8e4ae0dcc
+  - enabled: 1
     path: Assets/Scenes/Classroom/Classroom.unity
     guid: 37226e5ca8c6176479dd2233edf67c21
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/prueba/prueba.unity
     guid: 6431c33e2ef78a544bf956367b0e09e3
-  - enabled: 1
-    path: Assets/Scenes/Main Menu/main_menu.unity
-    guid: 9f164e5bd735fa64ca5210d8e4ae0dcc
   - enabled: 1
     path: Assets/Scenes/Internet First Level Village/FirstVillage.unity
     guid: 6a6a733c034787b4ba02196066a9a397

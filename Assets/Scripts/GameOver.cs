@@ -16,7 +16,7 @@ public class GameOver : MonoBehaviour
     }
 
     public void MenuButton(){
-    	SceneManager.LoadScene(3);
+    	SceneManager.LoadScene(0);
     }
 
     public void retry(){
