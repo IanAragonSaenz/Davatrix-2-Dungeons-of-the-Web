@@ -21,6 +21,7 @@ public class anonymousProjectiles : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
+        
         if( other.tag == "boss projectile")
             return;
 
@@ -40,6 +41,7 @@ public class anonymousProjectiles : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(this.gameObject);
         }
+
     }
 
 
